@@ -1,0 +1,30 @@
+/* Global frame: the area around the app (status bar / overscroll) is deep navy,
+   so it blends with the navy nav bar instead of flashing white on mobile. */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background: #0c1f4a;
+  min-height: 100%;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overscroll-behavior-y: none;
+}
+
+/* Markdown styling for the Practical Guide tab */
+.md-guide { color: #1f2937; font-size: 15px; line-height: 1.6; }
+.md-guide h1, .md-guide h2 { color: #0c1f4a; font-size: 20px; margin: 20px 0 8px; letter-spacing: -0.3px; }
+.md-guide h3 { color: #0c1f4a; font-size: 16px; margin: 16px 0 6px; }
+.md-guide p { margin: 8px 0; }
+.md-guide ul, .md-guide ol { margin: 8px 0; padding-left: 20px; }
+.md-guide li { margin: 5px 0; }
+.md-guide a { color: #1e3a8a; font-weight: 600; }
+.md-guide blockquote {
+  margin: 12px 0; padding: 10px 14px; background: #eff4ff;
+  border-left: 4px solid #60a5fa; border-radius: 8px; color: #0c1f4a; font-style: normal;
+}
+.md-guide strong { color: #0c1f4a; }
+.md-guide hr { border: none; border-top: 1px solid #e5e7eb; margin: 18px 0; }
