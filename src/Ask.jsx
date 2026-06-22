@@ -43,13 +43,37 @@ export default function Ask() {
         body: JSON.stringify({ messages: next }),
       });
       const ct = res.headers.get("content-type") || "";
-      if (!ct.includes("application/json")) {
-        // Happens in local dev (no serverless functions) — the SPA returns HTML.
-        throw new Error("offline");
+
+      // Errors (and the not-connected message) come back as JSON.
+      if (ct.includes("application/json")) {
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "request failed");
+        if (data.reply) {
+          setMessages((m) => [...m, { role: "assistant", content: data.reply }]);
+          return;
+        }
+        throw new Error("request failed");
       }
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "request failed");
-      setMessages((m) => [...m, { role: "assistant", content: data.reply }]);
+
+      // Local dev (no serverless functions) returns the SPA's HTML.
+      if (!res.ok || !res.body || !ct.includes("text/plain")) throw new Error("offline");
+
+      // Stream the answer in, token by token.
+      setMessages((m) => [...m, { role: "assistant", content: "" }]);
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        if (!chunk) continue;
+        setMessages((m) => {
+          const copy = [...m];
+          const last = copy[copy.length - 1];
+          copy[copy.length - 1] = { ...last, content: last.content + chunk };
+          return copy;
+        });
+      }
     } catch (e) {
       setError(
         e.message === "offline"

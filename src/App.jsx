@@ -604,7 +604,7 @@ export default function Acts18App() {
 
         {tab === "ask" && <Ask />}
         {tab === "pray" && <Prayer />}
-        {tab === "practice" && <Flashcards />}
+        {tab === "practice" && <Flashcards onGoToGuide={() => setTab("guide")} />}
         {tab === "guide" && <PracticalGuide />}
       </div>
     </div>

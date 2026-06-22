@@ -1,77 +1,129 @@
-import Anthropic from "@anthropic-ai/sdk";
 import { SYSTEM_PROMPT } from "./_systemPrompt.js";
 
-// Model is configurable via env var. Default: Sonnet 4.6 (great balance of
-// quality and cost). Set ANTHROPIC_MODEL=claude-opus-4-8 in Vercel for max quality.
+// Edge runtime: near-zero cold start + native streaming.
+export const config = { runtime: "edge" };
+
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 const MAX_TOKENS = 2048;
-const MAX_TURNS = 12;        // cap conversation length sent to the model
-const MAX_CHARS = 4000;      // cap per-message length
+const MAX_TURNS = 12;
+const MAX_CHARS = 4000;
 
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    res.status(405).json({ error: "Method not allowed." });
-    return;
-  }
+const json = (obj, status) =>
+  new Response(JSON.stringify(obj), {
+    status,
+    headers: { "content-type": "application/json" },
+  });
+
+export default async function handler(req) {
+  if (req.method !== "POST") return json({ error: "Method not allowed." }, 405);
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    res.status(503).json({
-      error:
-        "The assistant isn't connected yet. Add ANTHROPIC_API_KEY in the Vercel project's Environment Variables, then redeploy.",
-    });
-    return;
+    return json(
+      {
+        error:
+          "The assistant isn't connected yet. Add ANTHROPIC_API_KEY in the Vercel project's Environment Variables, then redeploy.",
+      },
+      503
+    );
   }
 
+  let body;
   try {
-    const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {};
-
-    // Accept either a full {messages:[...]} history or a single {question:"..."}.
-    let messages = Array.isArray(body.messages) ? body.messages : null;
-    if (!messages && typeof body.question === "string") {
-      messages = [{ role: "user", content: body.question }];
-    }
-
-    // Sanitize: keep only valid user/assistant string turns, cap count + length.
-    messages = (messages || [])
-      .filter(
-        (m) =>
-          m &&
-          (m.role === "user" || m.role === "assistant") &&
-          typeof m.content === "string" &&
-          m.content.trim().length > 0
-      )
-      .slice(-MAX_TURNS)
-      .map((m) => ({ role: m.role, content: m.content.slice(0, MAX_CHARS) }));
-
-    if (messages.length === 0 || messages[messages.length - 1].role !== "user") {
-      res.status(400).json({ error: "Please enter a question." });
-      return;
-    }
-
-    const client = new Anthropic({ apiKey });
-    const response = await client.messages.create({
-      model: MODEL,
-      max_tokens: MAX_TOKENS,
-      system: [
-        { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
-      ],
-      messages,
-    });
-
-    const reply = (response.content || [])
-      .filter((b) => b.type === "text")
-      .map((b) => b.text)
-      .join("\n")
-      .trim();
-
-    res.status(200).json({
-      reply: reply || "Sorry, I couldn't put a response together just now. Please try again.",
-    });
-  } catch (err) {
-    console.error("ask error:", err);
-    res.status(500).json({
-      error: "Something went wrong reaching the assistant. Please try again in a moment.",
-    });
+    body = await req.json();
+  } catch {
+    body = {};
   }
+
+  let messages = Array.isArray(body.messages) ? body.messages : null;
+  if (!messages && typeof body.question === "string") {
+    messages = [{ role: "user", content: body.question }];
+  }
+  messages = (messages || [])
+    .filter(
+      (m) =>
+        m &&
+        (m.role === "user" || m.role === "assistant") &&
+        typeof m.content === "string" &&
+        m.content.trim().length > 0
+    )
+    .slice(-MAX_TURNS)
+    .map((m) => ({ role: m.role, content: m.content.slice(0, MAX_CHARS) }));
+
+  if (messages.length === 0 || messages[messages.length - 1].role !== "user") {
+    return json({ error: "Please enter a question." }, 400);
+  }
+
+  // Call Anthropic with streaming enabled.
+  let upstream;
+  try {
+    upstream = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "x-api-key": apiKey,
+        "anthropic-version": "2023-06-01",
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        max_tokens: MAX_TOKENS,
+        stream: true,
+        system: [
+          { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
+        ],
+        messages,
+      }),
+    });
+  } catch {
+    return json({ error: "Couldn't reach the assistant. Please try again." }, 502);
+  }
+
+  if (!upstream.ok || !upstream.body) {
+    return json({ error: "The assistant is busy right now. Please try again in a moment." }, 502);
+  }
+
+  // Parse Anthropic's SSE stream and re-emit just the text, token by token.
+  const reader = upstream.body.getReader();
+  const decoder = new TextDecoder();
+  const encoder = new TextEncoder();
+
+  const stream = new ReadableStream({
+    async start(controller) {
+      let buffer = "";
+      try {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split("\n");
+          buffer = lines.pop() || "";
+          for (const line of lines) {
+            const trimmed = line.trim();
+            if (!trimmed.startsWith("data:")) continue;
+            const payload = trimmed.slice(5).trim();
+            if (!payload || payload === "[DONE]") continue;
+            try {
+              const evt = JSON.parse(payload);
+              if (evt.type === "content_block_delta" && evt.delta?.type === "text_delta") {
+                controller.enqueue(encoder.encode(evt.delta.text));
+              }
+            } catch {
+              /* ignore partial/non-JSON lines */
+            }
+          }
+        }
+      } catch {
+        controller.enqueue(encoder.encode("\n\n[Sorry — the answer was interrupted. Please try again.]"));
+      } finally {
+        controller.close();
+      }
+    },
+  });
+
+  return new Response(stream, {
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      "cache-control": "no-store",
+    },
+  });
 }

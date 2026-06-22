@@ -1,6 +1,139 @@
 {
   "decks": [
     {
+      "name": "Top 10 (Most Common)",
+      "cards": [
+        {
+          "front": "All religions are basically the same — they all lead to God.",
+          "context": "A spiritual-but-not-religious person says:",
+          "shortAnswer": "I really respect that, and I think it comes from a good place. Can I gently push back, though? Saying all religions are the same is itself a big truth claim about every religion — and it's one no religion would actually agree with. So which of us is really being narrow?",
+          "keyScriptures": [
+            "John 14:6",
+            "Acts 4:12"
+          ],
+          "deeper": "A point Tim Keller made well: \"all religions are the same / all roads lead to God\" sounds humble and tolerant, but it is actually an exclusive truth claim of its own — a sweeping assertion about the nature of every religion that you can't prove and that contradicts what those religions themselves teach. The implied charge is that the Christian is intolerant for saying Jesus is the only way; but the relativist is making an equally absolute claim while quietly dismissing every faith's real beliefs. The most respectful move is to take each religion's claims seriously and ask which one is true — and Jesus uniquely claimed to be the way and backed it by rising from the dead.",
+          "teacher": "general",
+          "watchOut": "Lead with respect, not a gotcha. The goal is to gently put a stone in their shoe, not to win a point."
+        },
+        {
+          "front": "They say: \"I'm a pretty good person.\"",
+          "context": "",
+          "shortAnswer": "Affirm them, then gently raise the bar: \"I can tell you're a kind person, and most people would say the same. Can I ask, compared to who? God's standard isn't other people, it's perfection, and that's where all of us fall short.\" Then walk to the cross.",
+          "keyScriptures": [
+            "Romans 3:23",
+            "Romans 3:10-12",
+            "Matthew 5:48"
+          ],
+          "deeper": "\"Good person\" is the single most common barrier, and the steelman is real: by human standards they probably are decent. The gentle move is to change the measuring stick from other people to God's perfect holiness, where everyone fails. Don't attack their character; agree they're kind, then show that the issue isn't being nice, it's that a holy God requires perfection none of us has, which is exactly why we need Jesus.",
+          "teacher": "Knechtle",
+          "watchOut": "Never argue that they're a bad person. Raise the standard, don't lower their dignity."
+        },
+        {
+          "front": "We both believe in the same God, so what's the big deal? We're really not that different.",
+          "context": "A Catholic says:",
+          "shortAnswer": "You're right that we share so much, and I'm thankful for that. Can I ask, though, where it really matters most: when you stand before God, what are you trusting to get you into heaven, Christ alone or Christ plus your own efforts?",
+          "keyScriptures": [
+            "Galatians 1:6-9",
+            "2 Corinthians 11:4"
+          ],
+          "deeper": "Steelman: Catholics affirm the Trinity, the deity of Christ, the virgin birth, the bodily resurrection, and the authority of Scripture, so the 'same God' claim is sincere and largely true on the doctrine of God Himself. The real divergence is not the identity of God but the gospel, how a sinner is justified before Him. Paul warns that 'another gospel' and 'another Jesus' can be preached even by sincere people (Galatians 1; 2 Corinthians 11). Gendron's counsel is to graciously narrow the conversation from the broad 'same God' agreement to the specific question of justification, where Rome and Scripture genuinely differ.",
+          "teacher": "Gendron",
+          "watchOut": "Don't open by attacking 'their' God; affirm the shared ground first, then narrow to how a person is made right with God."
+        },
+        {
+          "front": "If God is real and good, why is there so much suffering in the world? I can't believe in a God who lets this happen.",
+          "context": "A grieving or hurting skeptic raises the problem of evil:",
+          "shortAnswer": "Before I say anything, can I ask — has something happened to you, or someone you love? I don't want to hand you an argument if what you really need is someone to sit with you.",
+          "keyScriptures": [
+            "Genesis 3:17-19",
+            "Romans 8:18-22",
+            "Revelation 21:4"
+          ],
+          "deeper": "The problem of evil is the single most-felt objection, and almost always there's a wound behind it, not just a syllogism. Lead pastorally. The strongest atheist version says a good, all-powerful God would prevent gratuitous evil. The biblical response: God gave real freedom, humanity abused it, and the Fall unraveled creation itself (Genesis 3). God did not stay distant from the wreckage — He entered it in Christ and absorbed it at the cross. Suffering also presupposes a standard of 'ought-not-to-be,' which is hard to ground without God.",
+          "teacher": "Knechtle",
+          "watchOut": "Never lead with logic when someone is bleeding. Ask first; argue only if they want to go there."
+        },
+        {
+          "front": "How can you even know God exists? There's no proof.",
+          "context": "An atheist asks for evidence God exists:",
+          "shortAnswer": "Here's one I find hard to get around: everything that begins to exist has a cause, the universe began to exist, so the universe has a cause — and a cause of all space, time, and matter sounds a lot like God. What do you make of that?",
+          "keyScriptures": [
+            "Genesis 1:1",
+            "Romans 1:20",
+            "Psalm 19:1"
+          ],
+          "deeper": "The Kalam cosmological argument: (1) whatever begins to exist has a cause; (2) the universe began to exist (Big Bang cosmology + the impossibility of an actual infinite past); (3) therefore the universe has a cause — necessarily spaceless, timeless, immaterial, immensely powerful, and personal. The atheist's best move is to challenge premise 2 (multiverse, quantum gravity models), but these still typically face the Borde-Guth-Vilenkin theorem implying a beginning. This is a positive case for theism, not just a gap.",
+          "teacher": "Craig",
+          "watchOut": "Don't overclaim Kalam 'proves Christianity.' It argues to a Creator; the gospel comes next."
+        },
+        {
+          "front": "Even if Jesus existed, the resurrection is just a myth. People don't rise from the dead.",
+          "context": "A skeptic rejects the resurrection:",
+          "shortAnswer": "Let's set aside the Gospels and use only facts most critical scholars grant: Jesus died by crucifixion, the tomb was found empty, groups claimed to see Him alive, and the disciples were transformed enough to die for it. What naturalistic explanation accounts for all four better than 'He rose'?",
+          "keyScriptures": [
+            "1 Corinthians 15:3-8",
+            "Luke 24:1-3",
+            "Acts 2:32"
+          ],
+          "deeper": "The 'minimal facts' approach (Habermas/Licona) builds only on data accepted by the majority of scholars, including skeptics: (1) Jesus' death by crucifixion; (2) the disciples' sincere belief they saw Him risen; (3) the conversion of skeptics like Paul and James; (4) the empty tomb (attested across sources, discovered by women in a culture that discounted female testimony). Liars don't make martyrs — the disciples died for what they claimed to have seen, not a story they knew was false. Rejection is usually a priori naturalism, not lack of evidence.",
+          "teacher": "Turek",
+          "watchOut": "Distinguish 'died for a belief' (many do) from 'died for what they personally witnessed' (the key point)."
+        },
+        {
+          "front": "How can you trust the Bible? It was written so long ago and copied so many times it's basically a game of telephone.",
+          "context": "A skeptic questions the Bible's transmission:",
+          "shortAnswer": "Telephone is one whisper passed down a line, but we have over 5,200 Greek manuscripts to cross-check against each other, far more than any other ancient work. We can reconstruct the text with remarkable accuracy. Would it help to see how the textual evidence actually works?",
+          "keyScriptures": [
+            "Luke 1:1-4",
+            "2 Peter 1:16",
+            "2 Timothy 3:16"
+          ],
+          "deeper": "The telephone analogy fails because it's serial and oral; manuscript transmission is parallel and written, so errors don't compound — we triangulate. The NT has 5,200+ Greek manuscripts plus tens of thousands in other languages, with earlier fragments (like P52) close to the originals; no ancient work is better attested. The vast majority of variants are spelling or word order, none affecting any doctrine. Manuscript abundance is a feature, not a bug — more copies means more cross-checking.",
+          "teacher": "Turek",
+          "watchOut": "Don't claim 'zero errors in copying.' Be honest: variants exist, but they're minor and recoverable."
+        },
+        {
+          "front": "What about people who never heard of Jesus? It's not fair to send them to hell.",
+          "context": "A seeker raises the fate of the unevangelized:",
+          "shortAnswer": "I share that concern — and the Bible says God judges fairly, by what each person actually knew, not by information they never received. The God who entered our suffering to save us is not going to be unjust to anyone. Can I show you what Scripture says God does with the light people do have?",
+          "keyScriptures": [
+            "Romans 1:19-20",
+            "Romans 2:12-16",
+            "Acts 17:26-27"
+          ],
+          "deeper": "Scripture affirms God's perfect justice: everyone has the witness of creation and conscience (Romans 1-2), and God judges according to the light a person has, not light they lacked. People aren't condemned for never hearing a name, but for suppressing the truth they did have and choosing life apart from God. God positions people and times to seek Him (Acts 17). Salvation is always through Christ's work, but God is just toward those who never heard the message — and He alone judges hearts.",
+          "teacher": "Knechtle",
+          "watchOut": "Don't dogmatically claim to know each person's eternal fate. Affirm God's justice and leave room for mystery."
+        },
+        {
+          "front": "How can a loving God send people to hell? That's monstrous and unjust.",
+          "context": "A skeptic objects to the doctrine of hell:",
+          "shortAnswer": "Picture hell less as God dragging people in and more as Him honoring the request of those who say 'I want life without You.' He doesn't force His presence on anyone forever. C.S. Lewis put it well — in the end there are only two kinds: those who say to God 'Thy will be done,' and those to whom God says 'thy will be done.'",
+          "keyScriptures": [
+            "John 3:16-19",
+            "2 Thessalonians 1:8-9",
+            "Revelation 21:27"
+          ],
+          "deeper": "Steelman the objection: eternal conscious punishment for finite sins seems disproportionate. The biblical picture: hell is God granting people the separation from Himself that they insisted on — 'I did it my way.' Sin against an infinite, holy God carries infinite weight, and unrepented rebellion continues forever. Hell is also God's just dealing with evil — a universe where wickedness is never addressed would itself be unjust. God did everything to rescue us, even dying in our place; hell is the tragic respecting of a free 'no.'",
+          "teacher": "Knechtle",
+          "watchOut": "Don't sound gleeful or casual about hell. Speak of it with the sorrow Scripture and Jesus show."
+        },
+        {
+          "front": "The church is full of hypocrites. Why would I want anything to do with Christianity?",
+          "context": "A skeptic points to Christian hypocrisy:",
+          "shortAnswer": "You're right that there are hypocrites — Jesus said the harshest things in the Bible to religious hypocrites Himself. But judge Christ by His own character, not by people who fail to live up to Him. The fact that some Christians are bad isn't an argument against Jesus; it's an argument for needing Him.",
+          "keyScriptures": [
+            "Matthew 23:27-28",
+            "Romans 3:23",
+            "1 John 1:8-9"
+          ],
+          "deeper": "The objection is real and often comes from genuine wounds — listen first. But hypocrisy actually presupposes a standard the hypocrite fails to meet, which points back to the truth of Christ's teaching, not away from it. Counterfeits prove there's something real worth faking. Christianity uniquely admits everyone is a sinner, including believers, who are works in progress under the Spirit's slow transformation. The right test is the founder, Jesus, who lived flawlessly — not His flawed followers. Don't excuse abuse; acknowledge it grieves God too.",
+          "teacher": "Knechtle",
+          "watchOut": "If they were hurt by a church, lead with empathy and lament, not a quick rebuttal."
+        }
+      ]
+    },
+    {
       "name": "Tough Questions & Apologetics",
       "cards": [
         {
