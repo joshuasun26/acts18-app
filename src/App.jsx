@@ -263,14 +263,14 @@ function Hero({ onScrollDown }) {
 // ─── NAV BAR ─────────────────────────────────────────────────────────────────
 function NavBar({ tab, setTab, members, showAdmin, setShowAdmin }) {
   const TABS = [
+    { id: "pray", label: "Pray" },
+    { id: "practice", label: "Practice" },
+    { id: "guide", label: "Guide" },
     { id: "signup", label: "Join" },
     { id: "people", label: `Roster (${members.length})` },
     { id: "groups", label: "Groups" },
     { id: "carpools", label: "Cars" },
     { id: "updates", label: "Updates" },
-    { id: "pray", label: "Pray" },
-    { id: "practice", label: "Practice" },
-    { id: "guide", label: "Guide" },
   ];
   return (
     <div style={{ position: "sticky", top: 0, zIndex: 100, background: "#0c1f4a", boxShadow: "0 2px 20px rgba(0,0,0,0.35)" }}>
@@ -592,7 +592,7 @@ function AnnouncementPanel({ announcements, onAdd }) {
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Acts18App() {
-  const [tab, setTab] = useState("signup");
+  const [tab, setTab] = useState("pray");
   const [members, setMembers] = useState(INITIAL_MEMBERS);
   const [groups, setGroups] = useState([]);
   const [carpoolData, setCarpoolData] = useState(null);
