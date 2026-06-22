@@ -75,8 +75,17 @@ function getCarpoolStats(members) {
 }
 
 // ─── HERO with Ken Burns zoom-pan animation ───────────────────────────────────
+const HERO_VIDEOS = [
+  "https://res.cloudinary.com/dzjlv9q9l/video/upload/v1781588304/IMG_5178_cxizpj.mp4",
+  "https://res.cloudinary.com/dzjlv9q9l/video/upload/v1781588305/IMG_5179_mivvfb.mp4",
+  "https://res.cloudinary.com/dzjlv9q9l/video/upload/v1781588304/IMG_5181_doeom0.mp4",
+  "https://res.cloudinary.com/dzjlv9q9l/video/upload/v1781588304/IMG_5182_lp9iq9.mp4",
+  "https://res.cloudinary.com/dzjlv9q9l/video/upload/v1781588304/IMG_5180_ms22ow.mp4",
+];
+
 function Hero({ onScrollDown }) {
   const videoRef = useRef(null);
+  const [vidIdx, setVidIdx] = useState(0);
   useEffect(() => {
     const v = videoRef.current;
     if (v) {
@@ -84,7 +93,7 @@ function Hero({ onScrollDown }) {
       const p = v.play();
       if (p && p.catch) p.catch(() => {});
     }
-  }, []);
+  }, [vidIdx]);
 
   return (
     <div style={{ position: "relative", width: "100%", height: "100vh", minHeight: 640, overflow: "hidden", background: "#0a1733" }}>
@@ -94,22 +103,23 @@ function Hero({ onScrollDown }) {
         @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
       `}</style>
 
-      {/* BACKGROUND VIDEO (muted, looping, autoplaying) */}
+      {/* BACKGROUND VIDEO — cycles through the clips full-length, then loops the set */}
       <video
         ref={videoRef}
+        key={vidIdx}
         autoPlay
         muted
-        loop
         playsInline
         preload="auto"
         poster="/hero-poster.jpg"
+        onEnded={() => setVidIdx((i) => (i + 1) % HERO_VIDEOS.length)}
         style={{
           position: "absolute", inset: 0,
           width: "100%", height: "100%",
           objectFit: "cover", objectPosition: "center 30%",
         }}
       >
-        <source src="/hero.mp4" type="video/mp4" />
+        <source src={HERO_VIDEOS[vidIdx]} type="video/mp4" />
       </video>
 
       {/* DARK OVERLAY — strong at top and bottom, light in middle so you see the photo */}
