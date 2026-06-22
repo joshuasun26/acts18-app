@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 const NAVY = "#0c1f4a";
 
 const STARTERS = [
+  "How do I respond when someone says “all religions are the same” or “all roads lead to God”?",
   "What do I say to a Catholic woman?",
   "A Catholic told me “we believe in the same God” — how do I respond?",
   "What are the differences between Jehovah's Witnesses and Christians?",
@@ -20,7 +21,11 @@ export default function Ask() {
   const scrollRef = useRef(null);
 
   useEffect(() => {
-    scrollRef.current?.scrollIntoView({ behavior: "smooth" });
+    // Only auto-scroll once a conversation is underway — never on first load
+    // (otherwise the page jumps past the hero video to this tab).
+    if (messages.length > 0 || loading) {
+      scrollRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
   }, [messages, loading]);
 
   const send = async (text) => {

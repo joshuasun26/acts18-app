@@ -76,70 +76,41 @@ function getCarpoolStats(members) {
 
 // ─── HERO with Ken Burns zoom-pan animation ───────────────────────────────────
 function Hero({ onScrollDown }) {
-  const [idx, setIdx] = useState(0);
-  const [animKey, setAnimKey] = useState(0); // forces CSS animation restart
-
-  // Every 5s: fade out, switch photo, fade in + restart zoom
+  const videoRef = useRef(null);
   useEffect(() => {
-    const t = setInterval(() => {
-      setIdx(i => (i + 1) % PHOTOS.length);
-      setAnimKey(k => k + 1);
-    }, 5000);
-    return () => clearInterval(t);
+    const v = videoRef.current;
+    if (v) {
+      v.muted = true; // ensure muted before play (required for autoplay on iOS/Safari)
+      const p = v.play();
+      if (p && p.catch) p.catch(() => {});
+    }
   }, []);
 
-  // Different zoom/pan direction for each photo
-  const kenBurns = [
-    "kenburns-zoomin",
-    "kenburns-topleft",
-    "kenburns-zoomin",
-    "kenburns-topright",
-  ];
-
   return (
-    <div style={{ position: "relative", width: "100%", height: "100vh", minHeight: 640, overflow: "hidden" }}>
+    <div style={{ position: "relative", width: "100%", height: "100vh", minHeight: 640, overflow: "hidden", background: "#0a1733" }}>
 
       {/* CSS animations */}
       <style>{`
-        @keyframes kenburns-zoomin {
-          from { transform: scale(1.0) translate(0,0); }
-          to   { transform: scale(1.18) translate(-2%,-2%); }
-        }
-        @keyframes kenburns-topleft {
-          from { transform: scale(1.15) translate(3%,3%); }
-          to   { transform: scale(1.0) translate(0,0); }
-        }
-        @keyframes kenburns-topright {
-          from { transform: scale(1.0) translate(-3%,0); }
-          to   { transform: scale(1.18) translate(2%,-3%); }
-        }
-        @keyframes fadein { from { opacity:0 } to { opacity:1 } }
-        @keyframes fadeout { from { opacity:1 } to { opacity:0 } }
         @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
-        .kb-photo {
-          animation-duration: 5.5s;
-          animation-timing-function: ease-out;
-          animation-fill-mode: forwards;
-          animation-iteration-count: 1;
-        }
       `}</style>
 
-      {/* PHOTO with Ken Burns */}
-      <div key={`${idx}-${animKey}`} style={{
-        position: "absolute", inset: 0,
-        animation: "fadein 0.8s ease forwards",
-      }}>
-        <div
-          className={`kb-photo ${kenBurns[idx % kenBurns.length]}`}
-          style={{
-            animationName: kenBurns[idx % kenBurns.length],
-            position: "absolute", inset: "-10%",
-            backgroundImage: `url(${PHOTOS[idx].src})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center 30%",
-          }}
-        />
-      </div>
+      {/* BACKGROUND VIDEO (muted, looping, autoplaying) */}
+      <video
+        ref={videoRef}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster="/hero-poster.jpg"
+        style={{
+          position: "absolute", inset: 0,
+          width: "100%", height: "100%",
+          objectFit: "cover", objectPosition: "center 30%",
+        }}
+      >
+        <source src="/hero.mp4" type="video/mp4" />
+      </video>
 
       {/* DARK OVERLAY — strong at top and bottom, light in middle so you see the photo */}
       <div style={{
@@ -205,21 +176,6 @@ function Hero({ onScrollDown }) {
             "You will be my witnesses...<br />to the ends of the earth."
           </div>
 
-          {/* Photo dots + caption */}
-          <div style={{ display: "flex", justifyContent: "center", gap: 8, marginTop: 28 }}>
-            {PHOTOS.map((_, i) => (
-              <div key={i} onClick={() => { setIdx(i); setAnimKey(k => k + 1); }} style={{
-                width: i === idx ? 26 : 8, height: 8, borderRadius: 4,
-                background: i === idx ? "#fff" : "rgba(255,255,255,0.4)",
-                transition: "all 0.4s", cursor: "pointer",
-                boxShadow: "0 1px 4px rgba(0,0,0,0.6)",
-              }} />
-            ))}
-          </div>
-          <div style={{
-            color: "rgba(255,255,255,0.75)", fontSize: 12, marginTop: 8,
-            textShadow: "0 1px 4px rgba(0,0,0,0.9)",
-          }}>{PHOTOS[idx].caption}</div>
         </div>
 
         {/* BOTTOM */}

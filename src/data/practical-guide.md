@@ -1,5 +1,3 @@
-# Practical Steps & Tips: Sharing the Gospel Naturally
-
 > **A gentle word before we start.** This is *one* loving way to share Jesus, not the only way and not the "right" way. There's no script you have to nail and no quota to hit. The goal isn't to preach, perform, or win an argument. The goal is to **listen, ask, and love** the person in front of you. Relax. You're not closing a deal. You're starting a conversation and trusting God with the rest.
 >
 > *"Neither he who plants nor he who waters is anything, but only God who gives the growth."* (1 Corinthians 3:7)

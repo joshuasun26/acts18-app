@@ -1,6 +1,534 @@
 {
   "decks": [
     {
+      "name": "Tough Questions & Apologetics",
+      "cards": [
+        {
+          "front": "If God is real and good, why is there so much suffering in the world? I can't believe in a God who lets this happen.",
+          "context": "A grieving or hurting skeptic raises the problem of evil:",
+          "shortAnswer": "Before I say anything, can I ask — has something happened to you, or someone you love? I don't want to hand you an argument if what you really need is someone to sit with you.",
+          "keyScriptures": [
+            "Genesis 3:17-19",
+            "Romans 8:18-22",
+            "Revelation 21:4"
+          ],
+          "deeper": "The problem of evil is the single most-felt objection, and almost always there's a wound behind it, not just a syllogism. Lead pastorally. The strongest atheist version says a good, all-powerful God would prevent gratuitous evil. The biblical response: God gave real freedom, humanity abused it, and the Fall unraveled creation itself (Genesis 3). God did not stay distant from the wreckage — He entered it in Christ and absorbed it at the cross. Suffering also presupposes a standard of 'ought-not-to-be,' which is hard to ground without God.",
+          "teacher": "Knechtle",
+          "watchOut": "Never lead with logic when someone is bleeding. Ask first; argue only if they want to go there."
+        },
+        {
+          "front": "Doesn't all the evil in the world just prove there's no God? A loving God would stop it.",
+          "context": "An atheist presses the logical problem of evil:",
+          "shortAnswer": "I'd actually argue the opposite — calling something truly 'evil' assumes a real standard of good, and that standard is easier to explain if God exists than if He doesn't. Can I ask what you mean by evil?",
+          "keyScriptures": [
+            "Habakkuk 1:13",
+            "Romans 12:21",
+            "Isaiah 53:3-5"
+          ],
+          "deeper": "The free-will defense (Plantinga) shows there's no contradiction between an all-good, all-powerful God and the existence of evil: God can have morally sufficient reasons to permit a world with free creatures. Deeper still, evil is parasitic on good — it's a corruption of something that ought to be otherwise. To call the universe genuinely unjust, the skeptic borrows a moral ruler that naturalism can't supply. Job's lesson: life is unfair, but God is fair, and He proved it by suffering for us.",
+          "teacher": "Craig",
+          "watchOut": "Don't sound like you're scoring debate points off real pain. Stay gentle even when arguing."
+        },
+        {
+          "front": "Why would God allow what happened to me specifically? If He loved me, He wouldn't have let it happen.",
+          "context": "Someone names their own personal pain:",
+          "shortAnswer": "I'm so sorry that happened to you — that's a real wound, not just a debate topic. I don't have a tidy answer for why, but I can tell you God is not indifferent to it; He entered suffering Himself in Jesus and He's near to the brokenhearted.",
+          "keyScriptures": [
+            "Psalm 34:18",
+            "2 Corinthians 1:3-4",
+            "John 11:35"
+          ],
+          "deeper": "When pain is personal, abstractions wound further. The goal is presence, not a theodicy. Acknowledge the reality of the hurt, resist explaining it away, and point not to a reason but to a Person — the God who wept at Lazarus' tomb and bore our griefs. Often the deepest comfort isn't 'here's why' but 'here's Who is with you.' Offer to pray. Trust is built before truth is received.",
+          "teacher": "Platt",
+          "watchOut": "Do not say 'everything happens for a reason' or 'God needed another angel.' Sit with them first."
+        },
+        {
+          "front": "How can you even know God exists? There's no proof.",
+          "context": "An atheist asks for evidence God exists:",
+          "shortAnswer": "Here's one I find hard to get around: everything that begins to exist has a cause, the universe began to exist, so the universe has a cause — and a cause of all space, time, and matter sounds a lot like God. What do you make of that?",
+          "keyScriptures": [
+            "Genesis 1:1",
+            "Romans 1:20",
+            "Psalm 19:1"
+          ],
+          "deeper": "The Kalam cosmological argument: (1) whatever begins to exist has a cause; (2) the universe began to exist (Big Bang cosmology + the impossibility of an actual infinite past); (3) therefore the universe has a cause — necessarily spaceless, timeless, immaterial, immensely powerful, and personal. The atheist's best move is to challenge premise 2 (multiverse, quantum gravity models), but these still typically face the Borde-Guth-Vilenkin theorem implying a beginning. This is a positive case for theism, not just a gap.",
+          "teacher": "Craig",
+          "watchOut": "Don't overclaim Kalam 'proves Christianity.' It argues to a Creator; the gospel comes next."
+        },
+        {
+          "front": "The universe doesn't need God — it could have just popped into existence from nothing, or always existed.",
+          "context": "A skeptic offers naturalistic alternatives to a Creator:",
+          "shortAnswer": "But 'nothing' has no properties and can't do anything — true nothing is no laws, no quantum fields, no potential. And an infinite past runs into real problems too. So 'something from nothing, by nothing' seems like a bigger leap of faith than a Cause.",
+          "keyScriptures": [
+            "Hebrews 11:3",
+            "Colossians 1:16-17"
+          ],
+          "deeper": "When skeptics say the universe came 'from nothing,' they usually mean a quantum vacuum — which is not nothing, but a physical reality governed by laws. Genuine philosophical nothing has no causal powers. The eternal-universe option faces the paradoxes of traversing an actual infinite and contradicts standard cosmology. The most reasonable inference remains a transcendent, uncaused First Cause. Be charitable: physicists like Krauss redefine 'nothing,' and that's worth naming kindly rather than mockingly.",
+          "teacher": "Craig",
+          "watchOut": "Avoid quoting physics you can't defend. Stay on the philosophical point about 'nothing.'"
+        },
+        {
+          "front": "Isn't the fine-tuning of the universe just a coincidence, or explained by the multiverse?",
+          "context": "A skeptic addresses the fine-tuning argument:",
+          "shortAnswer": "The constants are balanced on such a razor's edge that chance feels like a stretch, and the multiverse is itself unproven and would still need fine-tuned machinery to generate universes. Design is at least a serious contender — would you agree it's on the table?",
+          "keyScriptures": [
+            "Isaiah 45:18",
+            "Psalm 8:3-4"
+          ],
+          "deeper": "Fine-tuning: physical constants (the cosmological constant, gravitational strength, etc.) fall within incomprehensibly narrow life-permitting ranges. Three options: necessity, chance, or design. Necessity lacks support; chance is staggeringly improbable; design fits naturally. The multiverse is the leading naturalist response, but it's empirically unconfirmed, arguably violates Ockham's razor, and a universe-generating mechanism would itself need fine-tuning. Steelman it honestly — it's a serious hypothesis — then weigh the inference to the best explanation.",
+          "teacher": "Craig",
+          "watchOut": "Don't claim fine-tuning is 'proven design.' Frame it as the best explanation, not the only one."
+        },
+        {
+          "front": "I can be a good person without God. Morality doesn't need religion.",
+          "context": "An atheist argues morality is independent of God:",
+          "shortAnswer": "I totally agree you can be good without believing in God — the question isn't whether atheists are moral, it's what makes anything truly right or wrong if we're just rearranged atoms. Where do you think real moral obligations come from?",
+          "keyScriptures": [
+            "Romans 2:14-15",
+            "Micah 6:8"
+          ],
+          "deeper": "The moral argument isn't about whether atheists behave well (many do); it's about grounding. If objective moral values and duties exist — if torturing children for fun is really wrong, not just unpopular — they need a transcendent foundation: a moral Lawgiver. Naturalism can explain why we feel moral, via evolution, but feelings aren't obligations. Relativism can't call date rape or genocide truly evil, only culturally disfavored. The conscience written on every heart points beyond us.",
+          "teacher": "Knechtle",
+          "watchOut": "Never imply atheists are immoral. Concede they're good; press on the foundation, not the behavior."
+        },
+        {
+          "front": "Morality is just something humans evolved or made up. It's relative to each culture.",
+          "context": "A skeptic defends moral relativism:",
+          "shortAnswer": "If morality is just made up, then no one could ever say another culture is truly wrong — not slavery, not the Holocaust, only 'we prefer otherwise.' Are you comfortable saying those were merely matters of taste?",
+          "keyScriptures": [
+            "Romans 1:32",
+            "Isaiah 5:20"
+          ],
+          "deeper": "Relativism is self-undermining in practice: relativists still make objective moral claims ('you shouldn't impose your values'). If morals are mere evolutionary survival mechanisms or cultural conventions, then moral reformers like Wilberforce or King were simply out of step with their culture, not heroes of justice. The reality that some things are genuinely evil regardless of opinion points to a standard above all cultures. Use Koukl's tactic: ask questions and let the relativist feel the weight of their own view.",
+          "teacher": "Koukl",
+          "watchOut": "Don't bulldoze. Use a Columbo question — 'What do you mean by that?' — and let them reason it out."
+        },
+        {
+          "front": "Faith is just believing without evidence. That's irrational.",
+          "context": "An atheist defines faith as belief without evidence:",
+          "shortAnswer": "That's not what biblical faith is — it's evidence plus trust, like boarding a plane. You can't prove it'll land safely, but the engineering warrants the step. Faith is committing based on good reasons, not in spite of having none.",
+          "keyScriptures": [
+            "Hebrews 11:1",
+            "Luke 1:1-4",
+            "John 20:30-31"
+          ],
+          "deeper": "The New Atheist caricature defines faith as belief without (or against) evidence. But the Bible presents faith as warranted trust — Luke writes so Theophilus may know the certainty of what happened; Jesus offers proofs. Everyone lives by faith: you trust the chair, the pilot, your spouse, based on evidence short of certainty. Biblical faith is a step into the light, not a leap into the dark. The real question becomes: what's the preponderance of evidence, and where does it point?",
+          "teacher": "Knechtle",
+          "watchOut": "Don't concede the skeptic's definition of faith. Gently redefine it as evidence plus commitment."
+        },
+        {
+          "front": "There's no such thing as objective truth — what's true for you isn't true for me.",
+          "context": "A relativist denies objective truth:",
+          "shortAnswer": "Is that statement objectively true — true for everyone, including me? Because if it is, it refutes itself; and if it's not, then I'm free to disagree. It seems truth sneaks back in no matter what.",
+          "keyScriptures": [
+            "John 14:6",
+            "John 8:32",
+            "John 18:37-38"
+          ],
+          "deeper": "'There is no objective truth' is itself an objective truth claim, so it self-destructs. The same applies to 'all truth is relative.' This is a gentle but decisive move — not to win a point, but to clear the ground so a person can consider that truth, and therefore the truth claims of Christ, are real. Pilate's cynical 'What is truth?' was spoken to Truth incarnate. Lead with a question, not a lecture.",
+          "teacher": "Knechtle",
+          "watchOut": "Make it a question they answer, not a 'gotcha' you spring. The aim is reflection, not embarrassment."
+        },
+        {
+          "front": "Without God, life still has meaning. I make my own purpose.",
+          "context": "An atheist claims self-made meaning:",
+          "shortAnswer": "I respect that you're living for something, and self-made meaning is real to you — but is it true, or just a story you tell against the silence? If the universe is indifferent and we all end as fertilizer, I wonder if invented meaning can carry the weight.",
+          "keyScriptures": [
+            "Ecclesiastes 1:2-3",
+            "Ecclesiastes 12:13",
+            "Colossians 1:16-17"
+          ],
+          "deeper": "Atheist existentialists like Camus and Sartre were honest: in a godless universe, meaning is self-assigned and ultimately absurd — Camus' 'fertilizer pit,' the only serious philosophical question being suicide. Subjective meaning is real psychologically but groundless cosmically; the heat death erases it all. Christianity offers objective meaning: we are made by God, for God, with a destiny beyond death. Steelman the dignity of crafting purpose, then ask whether it's discovered or merely invented.",
+          "teacher": "Knechtle",
+          "watchOut": "Don't tell someone their life is meaningless. Honor their search, then point to a firmer foundation."
+        },
+        {
+          "front": "If there's no God, aren't humans just animals? Why do you say we have special value?",
+          "context": "Discussing the basis of human dignity:",
+          "shortAnswer": "That's exactly the problem — on pure naturalism, you're a remarkable accident, and your value is just an opinion someone could revoke. But if every person bears God's image, then human dignity is real and equal, no matter how weak or unwanted. Which world do you actually want to live in?",
+          "keyScriptures": [
+            "Genesis 1:27",
+            "Psalm 139:13-14",
+            "James 3:9"
+          ],
+          "deeper": "Naturalism struggles to ground intrinsic human worth: if we're cosmic accidents, 'rights' and 'dignity' are useful fictions, not facts, and history shows what happens when a regime decides some lives don't count. The imago Dei grounds equal, inviolable worth for the disabled, the unborn, the enemy. This isn't an insult to atheists — many fight nobly for human rights — it's a question of whether their worldview can justify the value they rightly assume.",
+          "teacher": "Knechtle",
+          "watchOut": "Don't say atheists can't value people. Point out their worldview borrows dignity it can't fund."
+        },
+        {
+          "front": "How can you trust the Bible? It was written so long ago and copied so many times it's basically a game of telephone.",
+          "context": "A skeptic questions the Bible's transmission:",
+          "shortAnswer": "Telephone is one whisper passed down a line, but we have over 5,200 Greek manuscripts to cross-check against each other, far more than any other ancient work. We can reconstruct the text with remarkable accuracy. Would it help to see how the textual evidence actually works?",
+          "keyScriptures": [
+            "Luke 1:1-4",
+            "2 Peter 1:16",
+            "2 Timothy 3:16"
+          ],
+          "deeper": "The telephone analogy fails because it's serial and oral; manuscript transmission is parallel and written, so errors don't compound — we triangulate. The NT has 5,200+ Greek manuscripts plus tens of thousands in other languages, with earlier fragments (like P52) close to the originals; no ancient work is better attested. The vast majority of variants are spelling or word order, none affecting any doctrine. Manuscript abundance is a feature, not a bug — more copies means more cross-checking.",
+          "teacher": "Turek",
+          "watchOut": "Don't claim 'zero errors in copying.' Be honest: variants exist, but they're minor and recoverable."
+        },
+        {
+          "front": "The Gospels were written decades later by people who weren't even there. They're legends, not history.",
+          "context": "A skeptic challenges Gospel dating and authorship:",
+          "shortAnswer": "They were written within 20 to 60 years, while eyewitnesses were still alive to correct them — and Paul records a creed about the resurrection that scholars date to within a few years of the cross. That's far too early for legend to bury the facts.",
+          "keyScriptures": [
+            "1 Corinthians 15:3-8",
+            "Luke 1:1-2",
+            "John 21:24"
+          ],
+          "deeper": "The Gospels read like eyewitness reportage, not mythology — C.S. Lewis, a literary scholar, noted they have the texture of real reporting, full of incidental detail. The 1 Corinthians 15:3-8 creed predates Paul's letter and is dated by critical scholars to within roughly 3-5 years of the crucifixion, naming living witnesses including 500 at once. A.N. Sherwin-White noted legend typically needs generations to overgrow a historical core; the timeline here is too short.",
+          "teacher": "Turek",
+          "watchOut": "Don't overstate authorship certainty. Lead with the early creed and the eyewitness window."
+        },
+        {
+          "front": "Even if Jesus existed, the resurrection is just a myth. People don't rise from the dead.",
+          "context": "A skeptic rejects the resurrection:",
+          "shortAnswer": "Let's set aside the Gospels and use only facts most critical scholars grant: Jesus died by crucifixion, the tomb was found empty, groups claimed to see Him alive, and the disciples were transformed enough to die for it. What naturalistic explanation accounts for all four better than 'He rose'?",
+          "keyScriptures": [
+            "1 Corinthians 15:3-8",
+            "Luke 24:1-3",
+            "Acts 2:32"
+          ],
+          "deeper": "The 'minimal facts' approach (Habermas/Licona) builds only on data accepted by the majority of scholars, including skeptics: (1) Jesus' death by crucifixion; (2) the disciples' sincere belief they saw Him risen; (3) the conversion of skeptics like Paul and James; (4) the empty tomb (attested across sources, discovered by women in a culture that discounted female testimony). Liars don't make martyrs — the disciples died for what they claimed to have seen, not a story they knew was false. Rejection is usually a priori naturalism, not lack of evidence.",
+          "teacher": "Turek",
+          "watchOut": "Distinguish 'died for a belief' (many do) from 'died for what they personally witnessed' (the key point)."
+        },
+        {
+          "front": "Maybe the disciples just hallucinated, or stole the body, or went to the wrong tomb.",
+          "context": "A skeptic offers alternative theories for the empty tomb:",
+          "shortAnswer": "Hallucinations are private, not group experiences of 500 at once; a stolen body wouldn't make men die for a known lie; and the wrong-tomb theory collapses the moment authorities produce the real body, which they never did. Each theory has to explain away a different fact — and none explains them all.",
+          "keyScriptures": [
+            "1 Corinthians 15:6",
+            "Matthew 28:11-15",
+            "Acts 4:33"
+          ],
+          "deeper": "Each naturalistic theory founders on a specific fact. Hallucinations don't occur identically to groups and wouldn't produce an empty tomb. Theft contradicts the disciples' willingness to suffer and die — people don't martyr themselves for what they know is fabricated. Wrong-tomb fails because Jewish and Roman authorities, highly motivated to crush the movement, only needed to produce the corpse. The swoon theory ignores Roman execution expertise. The cumulative case is that the resurrection explains all the data at once; piecemeal theories don't.",
+          "teacher": "Turek",
+          "watchOut": "Don't rush through all theories at once. Take the one they raise and address it patiently."
+        },
+        {
+          "front": "Jesus was a great moral teacher, but he never claimed to be God. Christians invented that later.",
+          "context": "A seeker views Jesus as merely a wise teacher:",
+          "shortAnswer": "The trouble is, Jesus said things like 'I and the Father are one' and forgave sins only God can forgive — that leaves liar, lunatic, or Lord, but not 'merely a good teacher.' A good teacher doesn't claim to be God if He isn't. So which do you think He was?",
+          "keyScriptures": [
+            "John 14:6",
+            "John 8:58",
+            "Mark 2:5-7"
+          ],
+          "deeper": "C.S. Lewis's trilemma: Jesus' claims to deity (forgiving sins, accepting worship, 'before Abraham was, I am') rule out the safe 'just a teacher' option. If He claimed deity falsely and knew it, He was a liar; if falsely but sincerely, a lunatic on the level of a man calling himself a poached egg; if truly, He is Lord. Critics add a fourth 'L' — legend — but the early dating (see the manuscript and creed cards) closes that door. The claims are woven through the earliest material, not a later add-on.",
+          "teacher": "Knechtle",
+          "watchOut": "Be ready for the 'legend' rebuttal; answer it with early dating, then return to the trilemma."
+        },
+        {
+          "front": "What about people who never heard of Jesus? It's not fair to send them to hell.",
+          "context": "A seeker raises the fate of the unevangelized:",
+          "shortAnswer": "I share that concern — and the Bible says God judges fairly, by what each person actually knew, not by information they never received. The God who entered our suffering to save us is not going to be unjust to anyone. Can I show you what Scripture says God does with the light people do have?",
+          "keyScriptures": [
+            "Romans 1:19-20",
+            "Romans 2:12-16",
+            "Acts 17:26-27"
+          ],
+          "deeper": "Scripture affirms God's perfect justice: everyone has the witness of creation and conscience (Romans 1-2), and God judges according to the light a person has, not light they lacked. People aren't condemned for never hearing a name, but for suppressing the truth they did have and choosing life apart from God. God positions people and times to seek Him (Acts 17). Salvation is always through Christ's work, but God is just toward those who never heard the message — and He alone judges hearts.",
+          "teacher": "Knechtle",
+          "watchOut": "Don't dogmatically claim to know each person's eternal fate. Affirm God's justice and leave room for mystery."
+        },
+        {
+          "front": "How can a loving God send people to hell? That's monstrous and unjust.",
+          "context": "A skeptic objects to the doctrine of hell:",
+          "shortAnswer": "Picture hell less as God dragging people in and more as Him honoring the request of those who say 'I want life without You.' He doesn't force His presence on anyone forever. C.S. Lewis put it well — in the end there are only two kinds: those who say to God 'Thy will be done,' and those to whom God says 'thy will be done.'",
+          "keyScriptures": [
+            "John 3:16-19",
+            "2 Thessalonians 1:8-9",
+            "Revelation 21:27"
+          ],
+          "deeper": "Steelman the objection: eternal conscious punishment for finite sins seems disproportionate. The biblical picture: hell is God granting people the separation from Himself that they insisted on — 'I did it my way.' Sin against an infinite, holy God carries infinite weight, and unrepented rebellion continues forever. Hell is also God's just dealing with evil — a universe where wickedness is never addressed would itself be unjust. God did everything to rescue us, even dying in our place; hell is the tragic respecting of a free 'no.'",
+          "teacher": "Knechtle",
+          "watchOut": "Don't sound gleeful or casual about hell. Speak of it with the sorrow Scripture and Jesus show."
+        },
+        {
+          "front": "All religions are basically the same — they all lead to God.",
+          "context": "A spiritual-but-not-religious person says:",
+          "shortAnswer": "I really respect that, and I think it comes from a good place. Can I gently push back, though? Saying all religions are the same is itself a big truth claim about every religion — and it's one no religion would actually agree with. So which of us is really being narrow?",
+          "keyScriptures": [
+            "John 14:6",
+            "Acts 4:12"
+          ],
+          "deeper": "A point Tim Keller made well: \"all religions are the same / all roads lead to God\" sounds humble and tolerant, but it is actually an exclusive truth claim of its own — a sweeping assertion about the nature of every religion that you can't prove and that contradicts what those religions themselves teach. The implied charge is that the Christian is intolerant for saying Jesus is the only way; but the relativist is making an equally absolute claim while quietly dismissing every faith's real beliefs. The most respectful move is to take each religion's claims seriously and ask which one is true — and Jesus uniquely claimed to be the way and backed it by rising from the dead.",
+          "teacher": "general",
+          "watchOut": "Lead with respect, not a gotcha. The goal is to gently put a stone in their shoe, not to win a point."
+        },
+        {
+          "front": "Science has disproved God. We don't need ancient myths anymore — we have evidence.",
+          "context": "A skeptic frames science against faith:",
+          "shortAnswer": "Science studies how the natural world works; it can't, by definition, rule on whether anything beyond nature exists. Many founders of modern science — Newton, Kepler, Faraday — were believers who saw studying creation as thinking God's thoughts after Him. So what specifically do you think science has disproved?",
+          "keyScriptures": [
+            "Psalm 19:1",
+            "Colossians 1:17",
+            "Romans 1:20"
+          ],
+          "deeper": "The conflict thesis is largely a 19th-century myth. Science investigates natural causes by methodological naturalism; it's not equipped to disprove a transcendent cause — that's a philosophical question. Modern science arose in a Christian milieu precisely because believers expected an orderly, rational, intelligible universe made by a rational God. Faith and science answer different questions: science asks how, faith asks why and Who. Big Bang cosmology and fine-tuning have actually been hospitable to theism. Ask the person to name the specific finding; vague claims dissolve under specifics.",
+          "teacher": "Turek",
+          "watchOut": "Don't pit science against faith — affirm science. The clash is with naturalist philosophy, not science itself."
+        },
+        {
+          "front": "The church is full of hypocrites. Why would I want anything to do with Christianity?",
+          "context": "A skeptic points to Christian hypocrisy:",
+          "shortAnswer": "You're right that there are hypocrites — Jesus said the harshest things in the Bible to religious hypocrites Himself. But judge Christ by His own character, not by people who fail to live up to Him. The fact that some Christians are bad isn't an argument against Jesus; it's an argument for needing Him.",
+          "keyScriptures": [
+            "Matthew 23:27-28",
+            "Romans 3:23",
+            "1 John 1:8-9"
+          ],
+          "deeper": "The objection is real and often comes from genuine wounds — listen first. But hypocrisy actually presupposes a standard the hypocrite fails to meet, which points back to the truth of Christ's teaching, not away from it. Counterfeits prove there's something real worth faking. Christianity uniquely admits everyone is a sinner, including believers, who are works in progress under the Spirit's slow transformation. The right test is the founder, Jesus, who lived flawlessly — not His flawed followers. Don't excuse abuse; acknowledge it grieves God too.",
+          "teacher": "Knechtle",
+          "watchOut": "If they were hurt by a church, lead with empathy and lament, not a quick rebuttal."
+        },
+        {
+          "front": "I'm open to believing, I just need more evidence first.",
+          "context": "A seeker says they need more evidence before believing:",
+          "shortAnswer": "I love that you're open, and I'm glad to dig into evidence with you. But can I ask gently — is it really more evidence you need, or is there a part of you that's not sure you'd want it to be true? Sometimes the barrier is the will, not the mind, and that's worth being honest about with yourself.",
+          "keyScriptures": [
+            "John 7:17",
+            "Hebrews 11:6",
+            "Jeremiah 29:13"
+          ],
+          "deeper": "Some genuinely need information — give it generously. But often 'I need more evidence' masks a moral or volitional barrier: not wanting God's authority over one's life, as Aldous Huxley candidly admitted about wanting the world to have no meaning so he'd be free. Jesus said anyone willing to do God's will would know whether His teaching is true (John 7:17) — obedience and openness precede certainty. The honest question, in Knechtle's framing: what are you living for, and what's the preponderance of evidence it's more trustworthy than Christ?",
+          "teacher": "Knechtle",
+          "watchOut": "Don't accuse them of bad faith. Ask the question kindly and let them search their own heart."
+        }
+      ]
+    },
+    {
+      "name": "Gospel & Conversation Skills",
+      "cards": [
+        {
+          "front": "How do I even start a spiritual conversation with a stranger? I freeze up.",
+          "context": "You, before knocking on a door or approaching someone:",
+          "shortAnswer": "Lead with a simple, low-pressure opener and a real question, then just listen. Try: \"Hi, we're from a church down the street inviting people in the community to check it out, do you go to church at all?\"",
+          "keyScriptures": [
+            "1 Corinthians 3:7",
+            "Colossians 4:5-6"
+          ],
+          "deeper": "The hardest part is starting, so the church method removes the pressure by making the first move a friendly invitation and a question rather than a sermon. You are not there to perform or close a sale; you are there to find out where the person is spiritually and to love them. Remember the principle: it's not about ability, it's about availability. Paul reminds us that the one who plants and the one who waters are nothing, only God gives the growth, so the outcome is His responsibility, not yours.",
+          "teacher": "Platt",
+          "watchOut": "Don't open by arguing or preaching. Ask, then actually listen to the answer."
+        },
+        {
+          "front": "What exactly do I say at the door with the church invite?",
+          "context": "Postcard / church-invite opener:",
+          "shortAnswer": "\"Hi, we're from a church down the street inviting people in the community to check it out, do you go to church at all?\" If yes: \"That's great, what church? Is it a Christian or a Catholic church?\" If no: \"Can I ask what your religious background is?\"",
+          "keyScriptures": [
+            "Colossians 4:5-6",
+            "1 Peter 3:15"
+          ],
+          "deeper": "The invite opener is disarming because it frames you as a neighbor, not a salesman, and it gives the person an easy yes/no entry point. Their answer tells you immediately where to go next: a churchgoer gets a follow-up about which church, while a non-attender gets a gentle question about their background. Either way you are gathering information so you can meet them where they actually are instead of guessing.",
+          "teacher": "general",
+          "watchOut": "Asking \"Christian or Catholic?\" is a diagnostic, not a put-down. Keep your tone genuinely curious."
+        },
+        {
+          "front": "I'd rather offer to pray for people than knock with an invite. How do I open that way?",
+          "context": "Prayer-offer opener:",
+          "shortAnswer": "\"We're from a local church praying for our community, is there anything I can pray for you, your health or your family?\" Then, whether they say yes or no: \"May I ask what your religious background is?\"",
+          "keyScriptures": [
+            "Philippians 4:6-7",
+            "James 5:16"
+          ],
+          "deeper": "Offering prayer leads with love and meets a felt need, which lowers defenses far faster than a debate ever could. Almost everyone has something heavy they would welcome prayer for, and praying with them right there often opens the door to a deeper spiritual conversation. The follow-up question about religious background is the bridge from caring for their needs to caring for their soul.",
+          "teacher": "Platt",
+          "watchOut": "Actually pray with them in the moment if they're open. Don't just promise to pray later and walk off."
+        },
+        {
+          "front": "Once they're talking, how do I find out where they actually stand with God?",
+          "context": "The 1-10 assurance / diagnostic question:",
+          "shortAnswer": "Ask: \"If something happened to you today, on a scale of 1 to 10, how certain are you that you'd go to heaven?\" Then warmly: \"Great, why do you say that?\"",
+          "keyScriptures": [
+            "1 John 5:13",
+            "Romans 10:9-10"
+          ],
+          "deeper": "This single question quickly surfaces both their assurance level and the basis of their hope, which is what you most need to know. The crucial follow-up is \"why do you say that?\" because their reasoning reveals whether they're trusting their own goodness (works) or trusting Christ (grace). It gives you a non-confrontational way to diagnose the gospel they're actually relying on before you respond.",
+          "teacher": "general",
+          "watchOut": "Don't correct their number. Let the \"why\" do the work of exposing a works-based hope."
+        },
+        {
+          "front": "They gave a number based on being a good person. Now what?",
+          "context": "Following up a works-based answer to the 1-10 question:",
+          "shortAnswer": "Reflect it back gently: \"It sounds like you'd say an 8 because you've done good things and been a pretty good person, is that right?\" Then walk to Romans 3:23: we've all sinned, God is just and must punish sin, but He loves us and sent Jesus to pay for it and credit us His righteousness.",
+          "keyScriptures": [
+            "Romans 3:23",
+            "Romans 6:23",
+            "2 Corinthians 5:21"
+          ],
+          "deeper": "Confirming their reasoning before responding shows you listened and keeps it a conversation, not an ambush. The aim is to lovingly raise God's standard (perfection) so they feel the gap between their best efforts and His holiness, then immediately point to the solution. The good news lands hardest right after the honest bad news: we can't meet the standard, so God met it for us in Christ.",
+          "teacher": "Platt",
+          "watchOut": "Don't linger on sin to shame them. Move quickly to God's love and the cross."
+        },
+        {
+          "front": "How do I explain faith versus works simply, without sounding like a theologian?",
+          "context": "",
+          "shortAnswer": "Try: \"Every religion agrees there's a standard and we fall short. The difference is the solution. Every other path says get right with God by doing enough good, Christianity says we can't, so God sent Jesus to do it for us and give it to us as a gift.\"",
+          "keyScriptures": [
+            "Ephesians 2:8-9",
+            "Titus 3:5"
+          ],
+          "deeper": "Framing it as \"same problem, different solution\" is fair to other faiths and instantly clarifies what makes the gospel unique. Works-religion is do, do, do; the gospel is done. The steelman of works is that it feels just and motivating, but Scripture says salvation is by grace through faith, not works, precisely so that no one can boast and so that a perfect standard can actually be met, by Christ on our behalf.",
+          "teacher": "Gendron",
+          "watchOut": "Keep \"works\" from sounding like good deeds don't matter. They flow from salvation, they just don't earn it."
+        },
+        {
+          "front": "Help me use the judge and murderer illustration to show why good deeds can't cancel sin.",
+          "context": "When someone thinks their good outweighs their bad:",
+          "shortAnswer": "\"Imagine someone murdered your loved one but had done lots of good things, volunteered, gave to charity. Would you accept the judge letting him go because of all that good? Of course not, justice has to be served. Good deeds don't erase the penalty. It's the same with God's law.\"",
+          "keyScriptures": [
+            "Romans 2:5-6",
+            "Nahum 1:3",
+            "Romans 3:23"
+          ],
+          "deeper": "This illustration makes God's justice intuitive: a good judge cannot simply ignore a crime no matter how many good deeds the criminal piles up. It dismantles the scales mentality where good supposedly outweighs bad. Then it sets up the gospel beautifully, because the penalty still must be paid, and that's exactly what Jesus did on the cross, satisfying justice so mercy could flow to us.",
+          "teacher": "Turek",
+          "watchOut": "Always pivot from justice to the cross. Don't leave them feeling condemned with no way out."
+        },
+        {
+          "front": "What's the simplest way to explain how Jesus actually saves me?",
+          "context": "Explaining the Great Exchange:",
+          "shortAnswer": "\"Jesus did two things: He paid the penalty for our sin by dying in our place, and He lived the perfect life we never could. By faith, He takes our sin and credits us His perfect record as a gift. That's the only way to meet God's standard.\"",
+          "keyScriptures": [
+            "2 Corinthians 5:21",
+            "Romans 5:19"
+          ],
+          "deeper": "Many people understand the cross as Jesus paying for sin but miss the second half: His perfect life is imputed to us. The Great Exchange is that our sin goes to Christ and His righteousness comes to us, so we don't just get a clean slate, we get His flawless record. This is the heart of justification by faith alone and answers the question of how a sinner can ever be accepted by a holy God.",
+          "teacher": "Gendron",
+          "watchOut": "Don't reduce it to \"Jesus died for you.\" The imputed righteousness is what makes us a 10."
+        },
+        {
+          "front": "Give me a gospel I can share in about a minute.",
+          "context": "The one-minute gospel (Platt version):",
+          "shortAnswer": "\"God created us for relationship with Him. We all turned away, that's sin. God is holy and just and must punish sin. But He loves us so much He sent His Son Jesus to die on the cross and rise three days later to pay for our sin and bring us back to God. You receive it by putting your faith in Jesus.\"",
+          "keyScriptures": [
+            "Romans 5:8",
+            "1 Corinthians 15:3-4",
+            "John 3:16"
+          ],
+          "deeper": "A clear, memorized one-minute gospel means you're never stuck when a door opens. It hits the four essential beats: God, sin, Jesus (death and resurrection), and the response of faith. Knowing it cold frees you to be warm and present in the moment instead of scrambling for words, and it ensures you never leave out the cross or the resurrection, which are the core of the message.",
+          "teacher": "Platt",
+          "watchOut": "Don't rush it robotically. Make eye contact and let the love behind it show."
+        },
+        {
+          "front": "Someone makes a big claim I'm not sure how to answer. What do I ask?",
+          "context": "Koukl's Columbo tactic:",
+          "shortAnswer": "Ask two gentle questions: \"What do you mean by that?\" and then \"How did you come to that conclusion?\" Stay curious, not combative, and let them explain their own view.",
+          "keyScriptures": [
+            "Proverbs 18:13",
+            "Colossians 4:6"
+          ],
+          "deeper": "Koukl's Columbo tactic keeps the burden of proof where it belongs, on the person making the claim, instead of putting you on the defensive. \"What do you mean by that?\" forces clarity and often reveals the claim is fuzzier than it sounded; \"How did you come to that conclusion?\" makes them defend their reasoning. Questions are disarming and respectful, and they buy you time while putting a stone in their shoe to think about later.",
+          "teacher": "Koukl",
+          "watchOut": "The goal is often to plant a thought, not win on the spot. Don't pounce when they stumble."
+        },
+        {
+          "front": "They say: \"I'm a pretty good person.\"",
+          "context": "",
+          "shortAnswer": "Affirm them, then gently raise the bar: \"I can tell you're a kind person, and most people would say the same. Can I ask, compared to who? God's standard isn't other people, it's perfection, and that's where all of us fall short.\" Then walk to the cross.",
+          "keyScriptures": [
+            "Romans 3:23",
+            "Romans 3:10-12",
+            "Matthew 5:48"
+          ],
+          "deeper": "\"Good person\" is the single most common barrier, and the steelman is real: by human standards they probably are decent. The gentle move is to change the measuring stick from other people to God's perfect holiness, where everyone fails. Don't attack their character; agree they're kind, then show that the issue isn't being nice, it's that a holy God requires perfection none of us has, which is exactly why we need Jesus.",
+          "teacher": "Knechtle",
+          "watchOut": "Never argue that they're a bad person. Raise the standard, don't lower their dignity."
+        },
+        {
+          "front": "They say: \"I'm not religious\" or \"I'm spiritual but not religious.\"",
+          "context": "",
+          "shortAnswer": "Take it as an open door, not a wall: \"I totally get that, a lot of people feel burned by religion. Honestly, the gospel isn't really about religion either, it's about a relationship with God. Can I ask what you do believe about God?\"",
+          "keyScriptures": [
+            "John 17:3",
+            "Jeremiah 29:13"
+          ],
+          "deeper": "\"Spiritual but not religious\" usually signals openness to God paired with distrust of institutions or rule-keeping, and that's something you can affirm. Agreeing that the gospel is about relationship, not religion, removes a false barrier and shows the gospel isn't the do-this-do-that system they're rejecting. Then a curious follow-up question keeps them talking and lets you find the real spiritual ground they're standing on.",
+          "teacher": "Koukl",
+          "watchOut": "Don't get defensive about \"religion.\" Find the longing underneath it and point it to Christ."
+        },
+        {
+          "front": "They say: \"All religions basically lead to God.\"",
+          "context": "",
+          "shortAnswer": "Gently: \"That sounds kind and I get the appeal. But here's the thing, the religions actually teach opposite things about how to get to God. They can't all be right if they contradict each other. Can I show you the one difference that really matters?\"",
+          "keyScriptures": [
+            "John 14:6",
+            "Acts 4:12"
+          ],
+          "deeper": "The steelman is a generous instinct: it feels arrogant to say one path is right. But the claim collapses under its own logic, because the religions make contradictory claims about God, sin, and salvation, so they can be all false or one true, but not all true at once. The decisive difference is the solution: every other religion says reach God by works, while only Christianity says God reached down to us in Christ, which is grace, not arrogance.",
+          "teacher": "Knechtle",
+          "watchOut": "Use a question, not a lecture. Don't win the logic point and lose the person."
+        },
+        {
+          "front": "The person gets hostile or just shuts the conversation down. What do I do?",
+          "context": "",
+          "shortAnswer": "Stay kind and don't push. Simply say: \"I totally understand, thank you for your time, and Jesus loves you.\" Then bless them and move on with a genuine smile.",
+          "keyScriptures": [
+            "1 Peter 3:15-16",
+            "2 Timothy 2:24-25",
+            "Matthew 10:14"
+          ],
+          "deeper": "A hostile response is almost never really about you, and arguing only confirms their worst expectations of Christians. Responding with unexpected gentleness can do more long-term good than any argument, because it leaves them with a taste of grace instead of a fight. Be especially kind when people aren't receptive; you may be one seed in a long season, and God is the one who brings the growth.",
+          "teacher": "general",
+          "watchOut": "Never match hostility with hostility. The last thing they hear should be that Jesus loves them."
+        },
+        {
+          "front": "I'm scared and I freeze up before I even open my mouth. How do I push through fear?",
+          "context": "",
+          "shortAnswer": "Pray first, then remember: it's not about your ability, it's about your availability. You're not responsible for the outcome, only for showing up and loving the person. Take a breath, ask one simple question, and let God handle the rest.",
+          "keyScriptures": [
+            "1 Corinthians 3:7",
+            "2 Timothy 1:7",
+            "Joshua 1:9"
+          ],
+          "deeper": "Fear usually comes from feeling responsible for results you were never meant to carry. Scripture frees you: you plant or water, but God gives the growth, so a conversation that seems to flop may be exactly the seed He planned to use. Pray before, during, and after, ask God for His heart so the person feels loved rather than targeted, and lean on the Spirit of power, love, and self-control He's given you.",
+          "teacher": "general",
+          "watchOut": "Don't wait to feel brave. Obedience and availability come first, the courage follows."
+        },
+        {
+          "front": "How do I get from normal small talk to actually talking about God?",
+          "context": "",
+          "shortAnswer": "Use a bridge question. After listening to their life, ask: \"Can I ask you something kind of personal? Do you have any kind of faith or spiritual background?\" or offer prayer: \"Is there anything going on I could pray for you about?\"",
+          "keyScriptures": [
+            "Colossians 4:5-6",
+            "1 Peter 3:15"
+          ],
+          "deeper": "The transition feels hard because we treat spiritual things as off-limits, but most people are willing to talk if you ask warmly and have genuinely listened first. A simple permission-asking question (\"Can I ask you something personal?\") signals respect and invites them in rather than ambushing them. Offering to pray for a need they just mentioned is one of the most natural bridges, because it connects your faith directly to their real life.",
+          "teacher": "Koukl",
+          "watchOut": "Earn the turn by listening first. Don't bulldoze from weather to hell in one sentence."
+        },
+        {
+          "front": "How do I gently invite someone to actually put their faith in Jesus?",
+          "context": "The gentle close:",
+          "shortAnswer": "After sharing, ask: \"What do you think about that?\" Then, if they're warming: \"Would you like to put your faith in Jesus right now, so you can be a 10 in your assurance?\" No pressure, just a warm invitation.",
+          "keyScriptures": [
+            "Romans 10:9-10",
+            "John 1:12",
+            "Revelation 3:20"
+          ],
+          "deeper": "Asking \"what do you think about that?\" checks their heart and keeps it a dialogue before you ever invite a response. The close ties back to the 1-10 question, framing faith as the way to move from uncertainty to assurance grounded in Christ, not themselves. Invitation, not pressure, is the posture: you offer the gift sincerely and leave the response between them and God, trusting the Spirit to do the convicting.",
+          "teacher": "Platt",
+          "watchOut": "Don't manipulate or push for a decision. A pressured prayer isn't faith. Invite, then trust God."
+        },
+        {
+          "front": "They listened but they're just not interested. How do I leave it well?",
+          "context": "",
+          "shortAnswer": "Leave warmth, not guilt: \"I really appreciate you talking with me, no pressure at all. Just know that God loves you and so do I. Take care.\" Smile, thank them sincerely, and go in peace.",
+          "keyScriptures": [
+            "1 Corinthians 3:6-7",
+            "Mark 4:26-29",
+            "Isaiah 55:11"
+          ],
+          "deeper": "Not-interested is not failure; you may be planting or watering a seed that God will grow long after you're gone. Leaving on a kind, no-pressure note keeps the door open for the next believer they meet and guards their picture of Christians as loving, not pushy. Trust that God's Word never returns empty, so a warm goodbye that affirms His love can be the very thing the Spirit uses later.",
+          "teacher": "general",
+          "watchOut": "Don't treat a no as wasted. Resist a last guilt-trip. Let them feel loved as they walk away."
+        }
+      ]
+    },
+    {
       "name": "Catholicism",
       "cards": [
         {
@@ -723,535 +1251,6 @@
           "deeper": "Steelman: A respectful, lengthy conversation may move an LDS person from defending the institution to genuinely considering Christ; the most powerful close is not a final argument but the offer of rest. The biblical response: Romans 5:1 — 'since we have been justified by faith, we have peace with God' — names the assurance a works-tinged system can't give. The great exchange (2 Corinthians 5:21) and the free gift (Ephesians 2:8-9) are the heart of the matter. Inviting them to read Romans together moves the conversation from your authority to God's Word, where the Spirit does the convincing. The aim is an ongoing relationship, not a one-time conquest.",
           "teacher": "Platt",
           "watchOut": "End with an invitation and an open door, not a verdict. Offer to keep talking; leave them wanting the rest Christ gives."
-        }
-      ]
-    },
-    {
-      "name": "Tough Questions & Apologetics",
-      "cards": [
-        {
-          "front": "If God is real and good, why is there so much suffering in the world? I can't believe in a God who lets this happen.",
-          "context": "A grieving or hurting skeptic raises the problem of evil:",
-          "shortAnswer": "Before I say anything, can I ask — has something happened to you, or someone you love? I don't want to hand you an argument if what you really need is someone to sit with you.",
-          "keyScriptures": [
-            "Genesis 3:17-19",
-            "Romans 8:18-22",
-            "Revelation 21:4"
-          ],
-          "deeper": "The problem of evil is the single most-felt objection, and almost always there's a wound behind it, not just a syllogism. Lead pastorally. The strongest atheist version says a good, all-powerful God would prevent gratuitous evil. The biblical response: God gave real freedom, humanity abused it, and the Fall unraveled creation itself (Genesis 3). God did not stay distant from the wreckage — He entered it in Christ and absorbed it at the cross. Suffering also presupposes a standard of 'ought-not-to-be,' which is hard to ground without God.",
-          "teacher": "Knechtle",
-          "watchOut": "Never lead with logic when someone is bleeding. Ask first; argue only if they want to go there."
-        },
-        {
-          "front": "Doesn't all the evil in the world just prove there's no God? A loving God would stop it.",
-          "context": "An atheist presses the logical problem of evil:",
-          "shortAnswer": "I'd actually argue the opposite — calling something truly 'evil' assumes a real standard of good, and that standard is easier to explain if God exists than if He doesn't. Can I ask what you mean by evil?",
-          "keyScriptures": [
-            "Habakkuk 1:13",
-            "Romans 12:21",
-            "Isaiah 53:3-5"
-          ],
-          "deeper": "The free-will defense (Plantinga) shows there's no contradiction between an all-good, all-powerful God and the existence of evil: God can have morally sufficient reasons to permit a world with free creatures. Deeper still, evil is parasitic on good — it's a corruption of something that ought to be otherwise. To call the universe genuinely unjust, the skeptic borrows a moral ruler that naturalism can't supply. Job's lesson: life is unfair, but God is fair, and He proved it by suffering for us.",
-          "teacher": "Craig",
-          "watchOut": "Don't sound like you're scoring debate points off real pain. Stay gentle even when arguing."
-        },
-        {
-          "front": "Why would God allow what happened to me specifically? If He loved me, He wouldn't have let it happen.",
-          "context": "Someone names their own personal pain:",
-          "shortAnswer": "I'm so sorry that happened to you — that's a real wound, not just a debate topic. I don't have a tidy answer for why, but I can tell you God is not indifferent to it; He entered suffering Himself in Jesus and He's near to the brokenhearted.",
-          "keyScriptures": [
-            "Psalm 34:18",
-            "2 Corinthians 1:3-4",
-            "John 11:35"
-          ],
-          "deeper": "When pain is personal, abstractions wound further. The goal is presence, not a theodicy. Acknowledge the reality of the hurt, resist explaining it away, and point not to a reason but to a Person — the God who wept at Lazarus' tomb and bore our griefs. Often the deepest comfort isn't 'here's why' but 'here's Who is with you.' Offer to pray. Trust is built before truth is received.",
-          "teacher": "Platt",
-          "watchOut": "Do not say 'everything happens for a reason' or 'God needed another angel.' Sit with them first."
-        },
-        {
-          "front": "How can you even know God exists? There's no proof.",
-          "context": "An atheist asks for evidence God exists:",
-          "shortAnswer": "Here's one I find hard to get around: everything that begins to exist has a cause, the universe began to exist, so the universe has a cause — and a cause of all space, time, and matter sounds a lot like God. What do you make of that?",
-          "keyScriptures": [
-            "Genesis 1:1",
-            "Romans 1:20",
-            "Psalm 19:1"
-          ],
-          "deeper": "The Kalam cosmological argument: (1) whatever begins to exist has a cause; (2) the universe began to exist (Big Bang cosmology + the impossibility of an actual infinite past); (3) therefore the universe has a cause — necessarily spaceless, timeless, immaterial, immensely powerful, and personal. The atheist's best move is to challenge premise 2 (multiverse, quantum gravity models), but these still typically face the Borde-Guth-Vilenkin theorem implying a beginning. This is a positive case for theism, not just a gap.",
-          "teacher": "Craig",
-          "watchOut": "Don't overclaim Kalam 'proves Christianity.' It argues to a Creator; the gospel comes next."
-        },
-        {
-          "front": "The universe doesn't need God — it could have just popped into existence from nothing, or always existed.",
-          "context": "A skeptic offers naturalistic alternatives to a Creator:",
-          "shortAnswer": "But 'nothing' has no properties and can't do anything — true nothing is no laws, no quantum fields, no potential. And an infinite past runs into real problems too. So 'something from nothing, by nothing' seems like a bigger leap of faith than a Cause.",
-          "keyScriptures": [
-            "Hebrews 11:3",
-            "Colossians 1:16-17"
-          ],
-          "deeper": "When skeptics say the universe came 'from nothing,' they usually mean a quantum vacuum — which is not nothing, but a physical reality governed by laws. Genuine philosophical nothing has no causal powers. The eternal-universe option faces the paradoxes of traversing an actual infinite and contradicts standard cosmology. The most reasonable inference remains a transcendent, uncaused First Cause. Be charitable: physicists like Krauss redefine 'nothing,' and that's worth naming kindly rather than mockingly.",
-          "teacher": "Craig",
-          "watchOut": "Avoid quoting physics you can't defend. Stay on the philosophical point about 'nothing.'"
-        },
-        {
-          "front": "Isn't the fine-tuning of the universe just a coincidence, or explained by the multiverse?",
-          "context": "A skeptic addresses the fine-tuning argument:",
-          "shortAnswer": "The constants are balanced on such a razor's edge that chance feels like a stretch, and the multiverse is itself unproven and would still need fine-tuned machinery to generate universes. Design is at least a serious contender — would you agree it's on the table?",
-          "keyScriptures": [
-            "Isaiah 45:18",
-            "Psalm 8:3-4"
-          ],
-          "deeper": "Fine-tuning: physical constants (the cosmological constant, gravitational strength, etc.) fall within incomprehensibly narrow life-permitting ranges. Three options: necessity, chance, or design. Necessity lacks support; chance is staggeringly improbable; design fits naturally. The multiverse is the leading naturalist response, but it's empirically unconfirmed, arguably violates Ockham's razor, and a universe-generating mechanism would itself need fine-tuning. Steelman it honestly — it's a serious hypothesis — then weigh the inference to the best explanation.",
-          "teacher": "Craig",
-          "watchOut": "Don't claim fine-tuning is 'proven design.' Frame it as the best explanation, not the only one."
-        },
-        {
-          "front": "I can be a good person without God. Morality doesn't need religion.",
-          "context": "An atheist argues morality is independent of God:",
-          "shortAnswer": "I totally agree you can be good without believing in God — the question isn't whether atheists are moral, it's what makes anything truly right or wrong if we're just rearranged atoms. Where do you think real moral obligations come from?",
-          "keyScriptures": [
-            "Romans 2:14-15",
-            "Micah 6:8"
-          ],
-          "deeper": "The moral argument isn't about whether atheists behave well (many do); it's about grounding. If objective moral values and duties exist — if torturing children for fun is really wrong, not just unpopular — they need a transcendent foundation: a moral Lawgiver. Naturalism can explain why we feel moral, via evolution, but feelings aren't obligations. Relativism can't call date rape or genocide truly evil, only culturally disfavored. The conscience written on every heart points beyond us.",
-          "teacher": "Knechtle",
-          "watchOut": "Never imply atheists are immoral. Concede they're good; press on the foundation, not the behavior."
-        },
-        {
-          "front": "Morality is just something humans evolved or made up. It's relative to each culture.",
-          "context": "A skeptic defends moral relativism:",
-          "shortAnswer": "If morality is just made up, then no one could ever say another culture is truly wrong — not slavery, not the Holocaust, only 'we prefer otherwise.' Are you comfortable saying those were merely matters of taste?",
-          "keyScriptures": [
-            "Romans 1:32",
-            "Isaiah 5:20"
-          ],
-          "deeper": "Relativism is self-undermining in practice: relativists still make objective moral claims ('you shouldn't impose your values'). If morals are mere evolutionary survival mechanisms or cultural conventions, then moral reformers like Wilberforce or King were simply out of step with their culture, not heroes of justice. The reality that some things are genuinely evil regardless of opinion points to a standard above all cultures. Use Koukl's tactic: ask questions and let the relativist feel the weight of their own view.",
-          "teacher": "Koukl",
-          "watchOut": "Don't bulldoze. Use a Columbo question — 'What do you mean by that?' — and let them reason it out."
-        },
-        {
-          "front": "Faith is just believing without evidence. That's irrational.",
-          "context": "An atheist defines faith as belief without evidence:",
-          "shortAnswer": "That's not what biblical faith is — it's evidence plus trust, like boarding a plane. You can't prove it'll land safely, but the engineering warrants the step. Faith is committing based on good reasons, not in spite of having none.",
-          "keyScriptures": [
-            "Hebrews 11:1",
-            "Luke 1:1-4",
-            "John 20:30-31"
-          ],
-          "deeper": "The New Atheist caricature defines faith as belief without (or against) evidence. But the Bible presents faith as warranted trust — Luke writes so Theophilus may know the certainty of what happened; Jesus offers proofs. Everyone lives by faith: you trust the chair, the pilot, your spouse, based on evidence short of certainty. Biblical faith is a step into the light, not a leap into the dark. The real question becomes: what's the preponderance of evidence, and where does it point?",
-          "teacher": "Knechtle",
-          "watchOut": "Don't concede the skeptic's definition of faith. Gently redefine it as evidence plus commitment."
-        },
-        {
-          "front": "There's no such thing as objective truth — what's true for you isn't true for me.",
-          "context": "A relativist denies objective truth:",
-          "shortAnswer": "Is that statement objectively true — true for everyone, including me? Because if it is, it refutes itself; and if it's not, then I'm free to disagree. It seems truth sneaks back in no matter what.",
-          "keyScriptures": [
-            "John 14:6",
-            "John 8:32",
-            "John 18:37-38"
-          ],
-          "deeper": "'There is no objective truth' is itself an objective truth claim, so it self-destructs. The same applies to 'all truth is relative.' This is a gentle but decisive move — not to win a point, but to clear the ground so a person can consider that truth, and therefore the truth claims of Christ, are real. Pilate's cynical 'What is truth?' was spoken to Truth incarnate. Lead with a question, not a lecture.",
-          "teacher": "Knechtle",
-          "watchOut": "Make it a question they answer, not a 'gotcha' you spring. The aim is reflection, not embarrassment."
-        },
-        {
-          "front": "Without God, life still has meaning. I make my own purpose.",
-          "context": "An atheist claims self-made meaning:",
-          "shortAnswer": "I respect that you're living for something, and self-made meaning is real to you — but is it true, or just a story you tell against the silence? If the universe is indifferent and we all end as fertilizer, I wonder if invented meaning can carry the weight.",
-          "keyScriptures": [
-            "Ecclesiastes 1:2-3",
-            "Ecclesiastes 12:13",
-            "Colossians 1:16-17"
-          ],
-          "deeper": "Atheist existentialists like Camus and Sartre were honest: in a godless universe, meaning is self-assigned and ultimately absurd — Camus' 'fertilizer pit,' the only serious philosophical question being suicide. Subjective meaning is real psychologically but groundless cosmically; the heat death erases it all. Christianity offers objective meaning: we are made by God, for God, with a destiny beyond death. Steelman the dignity of crafting purpose, then ask whether it's discovered or merely invented.",
-          "teacher": "Knechtle",
-          "watchOut": "Don't tell someone their life is meaningless. Honor their search, then point to a firmer foundation."
-        },
-        {
-          "front": "If there's no God, aren't humans just animals? Why do you say we have special value?",
-          "context": "Discussing the basis of human dignity:",
-          "shortAnswer": "That's exactly the problem — on pure naturalism, you're a remarkable accident, and your value is just an opinion someone could revoke. But if every person bears God's image, then human dignity is real and equal, no matter how weak or unwanted. Which world do you actually want to live in?",
-          "keyScriptures": [
-            "Genesis 1:27",
-            "Psalm 139:13-14",
-            "James 3:9"
-          ],
-          "deeper": "Naturalism struggles to ground intrinsic human worth: if we're cosmic accidents, 'rights' and 'dignity' are useful fictions, not facts, and history shows what happens when a regime decides some lives don't count. The imago Dei grounds equal, inviolable worth for the disabled, the unborn, the enemy. This isn't an insult to atheists — many fight nobly for human rights — it's a question of whether their worldview can justify the value they rightly assume.",
-          "teacher": "Knechtle",
-          "watchOut": "Don't say atheists can't value people. Point out their worldview borrows dignity it can't fund."
-        },
-        {
-          "front": "How can you trust the Bible? It was written so long ago and copied so many times it's basically a game of telephone.",
-          "context": "A skeptic questions the Bible's transmission:",
-          "shortAnswer": "Telephone is one whisper passed down a line, but we have over 5,200 Greek manuscripts to cross-check against each other, far more than any other ancient work. We can reconstruct the text with remarkable accuracy. Would it help to see how the textual evidence actually works?",
-          "keyScriptures": [
-            "Luke 1:1-4",
-            "2 Peter 1:16",
-            "2 Timothy 3:16"
-          ],
-          "deeper": "The telephone analogy fails because it's serial and oral; manuscript transmission is parallel and written, so errors don't compound — we triangulate. The NT has 5,200+ Greek manuscripts plus tens of thousands in other languages, with earlier fragments (like P52) close to the originals; no ancient work is better attested. The vast majority of variants are spelling or word order, none affecting any doctrine. Manuscript abundance is a feature, not a bug — more copies means more cross-checking.",
-          "teacher": "Turek",
-          "watchOut": "Don't claim 'zero errors in copying.' Be honest: variants exist, but they're minor and recoverable."
-        },
-        {
-          "front": "The Gospels were written decades later by people who weren't even there. They're legends, not history.",
-          "context": "A skeptic challenges Gospel dating and authorship:",
-          "shortAnswer": "They were written within 20 to 60 years, while eyewitnesses were still alive to correct them — and Paul records a creed about the resurrection that scholars date to within a few years of the cross. That's far too early for legend to bury the facts.",
-          "keyScriptures": [
-            "1 Corinthians 15:3-8",
-            "Luke 1:1-2",
-            "John 21:24"
-          ],
-          "deeper": "The Gospels read like eyewitness reportage, not mythology — C.S. Lewis, a literary scholar, noted they have the texture of real reporting, full of incidental detail. The 1 Corinthians 15:3-8 creed predates Paul's letter and is dated by critical scholars to within roughly 3-5 years of the crucifixion, naming living witnesses including 500 at once. A.N. Sherwin-White noted legend typically needs generations to overgrow a historical core; the timeline here is too short.",
-          "teacher": "Turek",
-          "watchOut": "Don't overstate authorship certainty. Lead with the early creed and the eyewitness window."
-        },
-        {
-          "front": "Even if Jesus existed, the resurrection is just a myth. People don't rise from the dead.",
-          "context": "A skeptic rejects the resurrection:",
-          "shortAnswer": "Let's set aside the Gospels and use only facts most critical scholars grant: Jesus died by crucifixion, the tomb was found empty, groups claimed to see Him alive, and the disciples were transformed enough to die for it. What naturalistic explanation accounts for all four better than 'He rose'?",
-          "keyScriptures": [
-            "1 Corinthians 15:3-8",
-            "Luke 24:1-3",
-            "Acts 2:32"
-          ],
-          "deeper": "The 'minimal facts' approach (Habermas/Licona) builds only on data accepted by the majority of scholars, including skeptics: (1) Jesus' death by crucifixion; (2) the disciples' sincere belief they saw Him risen; (3) the conversion of skeptics like Paul and James; (4) the empty tomb (attested across sources, discovered by women in a culture that discounted female testimony). Liars don't make martyrs — the disciples died for what they claimed to have seen, not a story they knew was false. Rejection is usually a priori naturalism, not lack of evidence.",
-          "teacher": "Turek",
-          "watchOut": "Distinguish 'died for a belief' (many do) from 'died for what they personally witnessed' (the key point)."
-        },
-        {
-          "front": "Maybe the disciples just hallucinated, or stole the body, or went to the wrong tomb.",
-          "context": "A skeptic offers alternative theories for the empty tomb:",
-          "shortAnswer": "Hallucinations are private, not group experiences of 500 at once; a stolen body wouldn't make men die for a known lie; and the wrong-tomb theory collapses the moment authorities produce the real body, which they never did. Each theory has to explain away a different fact — and none explains them all.",
-          "keyScriptures": [
-            "1 Corinthians 15:6",
-            "Matthew 28:11-15",
-            "Acts 4:33"
-          ],
-          "deeper": "Each naturalistic theory founders on a specific fact. Hallucinations don't occur identically to groups and wouldn't produce an empty tomb. Theft contradicts the disciples' willingness to suffer and die — people don't martyr themselves for what they know is fabricated. Wrong-tomb fails because Jewish and Roman authorities, highly motivated to crush the movement, only needed to produce the corpse. The swoon theory ignores Roman execution expertise. The cumulative case is that the resurrection explains all the data at once; piecemeal theories don't.",
-          "teacher": "Turek",
-          "watchOut": "Don't rush through all theories at once. Take the one they raise and address it patiently."
-        },
-        {
-          "front": "Jesus was a great moral teacher, but he never claimed to be God. Christians invented that later.",
-          "context": "A seeker views Jesus as merely a wise teacher:",
-          "shortAnswer": "The trouble is, Jesus said things like 'I and the Father are one' and forgave sins only God can forgive — that leaves liar, lunatic, or Lord, but not 'merely a good teacher.' A good teacher doesn't claim to be God if He isn't. So which do you think He was?",
-          "keyScriptures": [
-            "John 14:6",
-            "John 8:58",
-            "Mark 2:5-7"
-          ],
-          "deeper": "C.S. Lewis's trilemma: Jesus' claims to deity (forgiving sins, accepting worship, 'before Abraham was, I am') rule out the safe 'just a teacher' option. If He claimed deity falsely and knew it, He was a liar; if falsely but sincerely, a lunatic on the level of a man calling himself a poached egg; if truly, He is Lord. Critics add a fourth 'L' — legend — but the early dating (see the manuscript and creed cards) closes that door. The claims are woven through the earliest material, not a later add-on.",
-          "teacher": "Knechtle",
-          "watchOut": "Be ready for the 'legend' rebuttal; answer it with early dating, then return to the trilemma."
-        },
-        {
-          "front": "What about people who never heard of Jesus? It's not fair to send them to hell.",
-          "context": "A seeker raises the fate of the unevangelized:",
-          "shortAnswer": "I share that concern — and the Bible says God judges fairly, by what each person actually knew, not by information they never received. The God who entered our suffering to save us is not going to be unjust to anyone. Can I show you what Scripture says God does with the light people do have?",
-          "keyScriptures": [
-            "Romans 1:19-20",
-            "Romans 2:12-16",
-            "Acts 17:26-27"
-          ],
-          "deeper": "Scripture affirms God's perfect justice: everyone has the witness of creation and conscience (Romans 1-2), and God judges according to the light a person has, not light they lacked. People aren't condemned for never hearing a name, but for suppressing the truth they did have and choosing life apart from God. God positions people and times to seek Him (Acts 17). Salvation is always through Christ's work, but God is just toward those who never heard the message — and He alone judges hearts.",
-          "teacher": "Knechtle",
-          "watchOut": "Don't dogmatically claim to know each person's eternal fate. Affirm God's justice and leave room for mystery."
-        },
-        {
-          "front": "How can a loving God send people to hell? That's monstrous and unjust.",
-          "context": "A skeptic objects to the doctrine of hell:",
-          "shortAnswer": "Picture hell less as God dragging people in and more as Him honoring the request of those who say 'I want life without You.' He doesn't force His presence on anyone forever. C.S. Lewis put it well — in the end there are only two kinds: those who say to God 'Thy will be done,' and those to whom God says 'thy will be done.'",
-          "keyScriptures": [
-            "John 3:16-19",
-            "2 Thessalonians 1:8-9",
-            "Revelation 21:27"
-          ],
-          "deeper": "Steelman the objection: eternal conscious punishment for finite sins seems disproportionate. The biblical picture: hell is God granting people the separation from Himself that they insisted on — 'I did it my way.' Sin against an infinite, holy God carries infinite weight, and unrepented rebellion continues forever. Hell is also God's just dealing with evil — a universe where wickedness is never addressed would itself be unjust. God did everything to rescue us, even dying in our place; hell is the tragic respecting of a free 'no.'",
-          "teacher": "Knechtle",
-          "watchOut": "Don't sound gleeful or casual about hell. Speak of it with the sorrow Scripture and Jesus show."
-        },
-        {
-          "front": "Aren't all religions basically the same? They all teach love and lead to the same God.",
-          "context": "A pluralist says all religions are equally valid:",
-          "shortAnswer": "They share some ethics, but they flatly contradict each other on the biggest questions — who God is, who Jesus is, how we're saved — so they can't all be true at once. Christianity is unique in saying you can't earn it; God did the saving. What do you think is the core difference?",
-          "keyScriptures": [
-            "John 14:6",
-            "Acts 4:12",
-            "Ephesians 2:8-9"
-          ],
-          "deeper": "Pluralism sounds humble but is actually a sweeping claim that no religion is uniquely true — the blind-men-and-the-elephant parable secretly assumes the teller can see the whole elephant. Religions agree on some ethics but contradict on essentials: Is God personal or impersonal? Is Jesus God, a prophet, or a guru? Is salvation by works, enlightenment, or grace? These can't all be right. Christianity's distinctive is grace — every other system is some form of human achievement; the gospel is divine accomplishment received by faith.",
-          "teacher": "Knechtle",
-          "watchOut": "Acknowledge the genuine good and truth in other faiths before drawing the contrast. Avoid sounding arrogant."
-        },
-        {
-          "front": "Science has disproved God. We don't need ancient myths anymore — we have evidence.",
-          "context": "A skeptic frames science against faith:",
-          "shortAnswer": "Science studies how the natural world works; it can't, by definition, rule on whether anything beyond nature exists. Many founders of modern science — Newton, Kepler, Faraday — were believers who saw studying creation as thinking God's thoughts after Him. So what specifically do you think science has disproved?",
-          "keyScriptures": [
-            "Psalm 19:1",
-            "Colossians 1:17",
-            "Romans 1:20"
-          ],
-          "deeper": "The conflict thesis is largely a 19th-century myth. Science investigates natural causes by methodological naturalism; it's not equipped to disprove a transcendent cause — that's a philosophical question. Modern science arose in a Christian milieu precisely because believers expected an orderly, rational, intelligible universe made by a rational God. Faith and science answer different questions: science asks how, faith asks why and Who. Big Bang cosmology and fine-tuning have actually been hospitable to theism. Ask the person to name the specific finding; vague claims dissolve under specifics.",
-          "teacher": "Turek",
-          "watchOut": "Don't pit science against faith — affirm science. The clash is with naturalist philosophy, not science itself."
-        },
-        {
-          "front": "The church is full of hypocrites. Why would I want anything to do with Christianity?",
-          "context": "A skeptic points to Christian hypocrisy:",
-          "shortAnswer": "You're right that there are hypocrites — Jesus said the harshest things in the Bible to religious hypocrites Himself. But judge Christ by His own character, not by people who fail to live up to Him. The fact that some Christians are bad isn't an argument against Jesus; it's an argument for needing Him.",
-          "keyScriptures": [
-            "Matthew 23:27-28",
-            "Romans 3:23",
-            "1 John 1:8-9"
-          ],
-          "deeper": "The objection is real and often comes from genuine wounds — listen first. But hypocrisy actually presupposes a standard the hypocrite fails to meet, which points back to the truth of Christ's teaching, not away from it. Counterfeits prove there's something real worth faking. Christianity uniquely admits everyone is a sinner, including believers, who are works in progress under the Spirit's slow transformation. The right test is the founder, Jesus, who lived flawlessly — not His flawed followers. Don't excuse abuse; acknowledge it grieves God too.",
-          "teacher": "Knechtle",
-          "watchOut": "If they were hurt by a church, lead with empathy and lament, not a quick rebuttal."
-        },
-        {
-          "front": "I'm open to believing, I just need more evidence first.",
-          "context": "A seeker says they need more evidence before believing:",
-          "shortAnswer": "I love that you're open, and I'm glad to dig into evidence with you. But can I ask gently — is it really more evidence you need, or is there a part of you that's not sure you'd want it to be true? Sometimes the barrier is the will, not the mind, and that's worth being honest about with yourself.",
-          "keyScriptures": [
-            "John 7:17",
-            "Hebrews 11:6",
-            "Jeremiah 29:13"
-          ],
-          "deeper": "Some genuinely need information — give it generously. But often 'I need more evidence' masks a moral or volitional barrier: not wanting God's authority over one's life, as Aldous Huxley candidly admitted about wanting the world to have no meaning so he'd be free. Jesus said anyone willing to do God's will would know whether His teaching is true (John 7:17) — obedience and openness precede certainty. The honest question, in Knechtle's framing: what are you living for, and what's the preponderance of evidence it's more trustworthy than Christ?",
-          "teacher": "Knechtle",
-          "watchOut": "Don't accuse them of bad faith. Ask the question kindly and let them search their own heart."
-        }
-      ]
-    },
-    {
-      "name": "Gospel & Conversation Skills",
-      "cards": [
-        {
-          "front": "How do I even start a spiritual conversation with a stranger? I freeze up.",
-          "context": "You, before knocking on a door or approaching someone:",
-          "shortAnswer": "Lead with a simple, low-pressure opener and a real question, then just listen. Try: \"Hi, we're from a church down the street inviting people in the community to check it out, do you go to church at all?\"",
-          "keyScriptures": [
-            "1 Corinthians 3:7",
-            "Colossians 4:5-6"
-          ],
-          "deeper": "The hardest part is starting, so the church method removes the pressure by making the first move a friendly invitation and a question rather than a sermon. You are not there to perform or close a sale; you are there to find out where the person is spiritually and to love them. Remember the principle: it's not about ability, it's about availability. Paul reminds us that the one who plants and the one who waters are nothing, only God gives the growth, so the outcome is His responsibility, not yours.",
-          "teacher": "Platt",
-          "watchOut": "Don't open by arguing or preaching. Ask, then actually listen to the answer."
-        },
-        {
-          "front": "What exactly do I say at the door with the church invite?",
-          "context": "Postcard / church-invite opener:",
-          "shortAnswer": "\"Hi, we're from a church down the street inviting people in the community to check it out, do you go to church at all?\" If yes: \"That's great, what church? Is it a Christian or a Catholic church?\" If no: \"Can I ask what your religious background is?\"",
-          "keyScriptures": [
-            "Colossians 4:5-6",
-            "1 Peter 3:15"
-          ],
-          "deeper": "The invite opener is disarming because it frames you as a neighbor, not a salesman, and it gives the person an easy yes/no entry point. Their answer tells you immediately where to go next: a churchgoer gets a follow-up about which church, while a non-attender gets a gentle question about their background. Either way you are gathering information so you can meet them where they actually are instead of guessing.",
-          "teacher": "general",
-          "watchOut": "Asking \"Christian or Catholic?\" is a diagnostic, not a put-down. Keep your tone genuinely curious."
-        },
-        {
-          "front": "I'd rather offer to pray for people than knock with an invite. How do I open that way?",
-          "context": "Prayer-offer opener:",
-          "shortAnswer": "\"We're from a local church praying for our community, is there anything I can pray for you, your health or your family?\" Then, whether they say yes or no: \"May I ask what your religious background is?\"",
-          "keyScriptures": [
-            "Philippians 4:6-7",
-            "James 5:16"
-          ],
-          "deeper": "Offering prayer leads with love and meets a felt need, which lowers defenses far faster than a debate ever could. Almost everyone has something heavy they would welcome prayer for, and praying with them right there often opens the door to a deeper spiritual conversation. The follow-up question about religious background is the bridge from caring for their needs to caring for their soul.",
-          "teacher": "Platt",
-          "watchOut": "Actually pray with them in the moment if they're open. Don't just promise to pray later and walk off."
-        },
-        {
-          "front": "Once they're talking, how do I find out where they actually stand with God?",
-          "context": "The 1-10 assurance / diagnostic question:",
-          "shortAnswer": "Ask: \"If something happened to you today, on a scale of 1 to 10, how certain are you that you'd go to heaven?\" Then warmly: \"Great, why do you say that?\"",
-          "keyScriptures": [
-            "1 John 5:13",
-            "Romans 10:9-10"
-          ],
-          "deeper": "This single question quickly surfaces both their assurance level and the basis of their hope, which is what you most need to know. The crucial follow-up is \"why do you say that?\" because their reasoning reveals whether they're trusting their own goodness (works) or trusting Christ (grace). It gives you a non-confrontational way to diagnose the gospel they're actually relying on before you respond.",
-          "teacher": "general",
-          "watchOut": "Don't correct their number. Let the \"why\" do the work of exposing a works-based hope."
-        },
-        {
-          "front": "They gave a number based on being a good person. Now what?",
-          "context": "Following up a works-based answer to the 1-10 question:",
-          "shortAnswer": "Reflect it back gently: \"It sounds like you'd say an 8 because you've done good things and been a pretty good person, is that right?\" Then walk to Romans 3:23: we've all sinned, God is just and must punish sin, but He loves us and sent Jesus to pay for it and credit us His righteousness.",
-          "keyScriptures": [
-            "Romans 3:23",
-            "Romans 6:23",
-            "2 Corinthians 5:21"
-          ],
-          "deeper": "Confirming their reasoning before responding shows you listened and keeps it a conversation, not an ambush. The aim is to lovingly raise God's standard (perfection) so they feel the gap between their best efforts and His holiness, then immediately point to the solution. The good news lands hardest right after the honest bad news: we can't meet the standard, so God met it for us in Christ.",
-          "teacher": "Platt",
-          "watchOut": "Don't linger on sin to shame them. Move quickly to God's love and the cross."
-        },
-        {
-          "front": "How do I explain faith versus works simply, without sounding like a theologian?",
-          "context": "",
-          "shortAnswer": "Try: \"Every religion agrees there's a standard and we fall short. The difference is the solution. Every other path says get right with God by doing enough good, Christianity says we can't, so God sent Jesus to do it for us and give it to us as a gift.\"",
-          "keyScriptures": [
-            "Ephesians 2:8-9",
-            "Titus 3:5"
-          ],
-          "deeper": "Framing it as \"same problem, different solution\" is fair to other faiths and instantly clarifies what makes the gospel unique. Works-religion is do, do, do; the gospel is done. The steelman of works is that it feels just and motivating, but Scripture says salvation is by grace through faith, not works, precisely so that no one can boast and so that a perfect standard can actually be met, by Christ on our behalf.",
-          "teacher": "Gendron",
-          "watchOut": "Keep \"works\" from sounding like good deeds don't matter. They flow from salvation, they just don't earn it."
-        },
-        {
-          "front": "Help me use the judge and murderer illustration to show why good deeds can't cancel sin.",
-          "context": "When someone thinks their good outweighs their bad:",
-          "shortAnswer": "\"Imagine someone murdered your loved one but had done lots of good things, volunteered, gave to charity. Would you accept the judge letting him go because of all that good? Of course not, justice has to be served. Good deeds don't erase the penalty. It's the same with God's law.\"",
-          "keyScriptures": [
-            "Romans 2:5-6",
-            "Nahum 1:3",
-            "Romans 3:23"
-          ],
-          "deeper": "This illustration makes God's justice intuitive: a good judge cannot simply ignore a crime no matter how many good deeds the criminal piles up. It dismantles the scales mentality where good supposedly outweighs bad. Then it sets up the gospel beautifully, because the penalty still must be paid, and that's exactly what Jesus did on the cross, satisfying justice so mercy could flow to us.",
-          "teacher": "Turek",
-          "watchOut": "Always pivot from justice to the cross. Don't leave them feeling condemned with no way out."
-        },
-        {
-          "front": "What's the simplest way to explain how Jesus actually saves me?",
-          "context": "Explaining the Great Exchange:",
-          "shortAnswer": "\"Jesus did two things: He paid the penalty for our sin by dying in our place, and He lived the perfect life we never could. By faith, He takes our sin and credits us His perfect record as a gift. That's the only way to meet God's standard.\"",
-          "keyScriptures": [
-            "2 Corinthians 5:21",
-            "Romans 5:19"
-          ],
-          "deeper": "Many people understand the cross as Jesus paying for sin but miss the second half: His perfect life is imputed to us. The Great Exchange is that our sin goes to Christ and His righteousness comes to us, so we don't just get a clean slate, we get His flawless record. This is the heart of justification by faith alone and answers the question of how a sinner can ever be accepted by a holy God.",
-          "teacher": "Gendron",
-          "watchOut": "Don't reduce it to \"Jesus died for you.\" The imputed righteousness is what makes us a 10."
-        },
-        {
-          "front": "Give me a gospel I can share in about a minute.",
-          "context": "The one-minute gospel (Platt version):",
-          "shortAnswer": "\"God created us for relationship with Him. We all turned away, that's sin. God is holy and just and must punish sin. But He loves us so much He sent His Son Jesus to die on the cross and rise three days later to pay for our sin and bring us back to God. You receive it by putting your faith in Jesus.\"",
-          "keyScriptures": [
-            "Romans 5:8",
-            "1 Corinthians 15:3-4",
-            "John 3:16"
-          ],
-          "deeper": "A clear, memorized one-minute gospel means you're never stuck when a door opens. It hits the four essential beats: God, sin, Jesus (death and resurrection), and the response of faith. Knowing it cold frees you to be warm and present in the moment instead of scrambling for words, and it ensures you never leave out the cross or the resurrection, which are the core of the message.",
-          "teacher": "Platt",
-          "watchOut": "Don't rush it robotically. Make eye contact and let the love behind it show."
-        },
-        {
-          "front": "Someone makes a big claim I'm not sure how to answer. What do I ask?",
-          "context": "Koukl's Columbo tactic:",
-          "shortAnswer": "Ask two gentle questions: \"What do you mean by that?\" and then \"How did you come to that conclusion?\" Stay curious, not combative, and let them explain their own view.",
-          "keyScriptures": [
-            "Proverbs 18:13",
-            "Colossians 4:6"
-          ],
-          "deeper": "Koukl's Columbo tactic keeps the burden of proof where it belongs, on the person making the claim, instead of putting you on the defensive. \"What do you mean by that?\" forces clarity and often reveals the claim is fuzzier than it sounded; \"How did you come to that conclusion?\" makes them defend their reasoning. Questions are disarming and respectful, and they buy you time while putting a stone in their shoe to think about later.",
-          "teacher": "Koukl",
-          "watchOut": "The goal is often to plant a thought, not win on the spot. Don't pounce when they stumble."
-        },
-        {
-          "front": "They say: \"I'm a pretty good person.\"",
-          "context": "",
-          "shortAnswer": "Affirm them, then gently raise the bar: \"I can tell you're a kind person, and most people would say the same. Can I ask, compared to who? God's standard isn't other people, it's perfection, and that's where all of us fall short.\" Then walk to the cross.",
-          "keyScriptures": [
-            "Romans 3:23",
-            "Romans 3:10-12",
-            "Matthew 5:48"
-          ],
-          "deeper": "\"Good person\" is the single most common barrier, and the steelman is real: by human standards they probably are decent. The gentle move is to change the measuring stick from other people to God's perfect holiness, where everyone fails. Don't attack their character; agree they're kind, then show that the issue isn't being nice, it's that a holy God requires perfection none of us has, which is exactly why we need Jesus.",
-          "teacher": "Knechtle",
-          "watchOut": "Never argue that they're a bad person. Raise the standard, don't lower their dignity."
-        },
-        {
-          "front": "They say: \"I'm not religious\" or \"I'm spiritual but not religious.\"",
-          "context": "",
-          "shortAnswer": "Take it as an open door, not a wall: \"I totally get that, a lot of people feel burned by religion. Honestly, the gospel isn't really about religion either, it's about a relationship with God. Can I ask what you do believe about God?\"",
-          "keyScriptures": [
-            "John 17:3",
-            "Jeremiah 29:13"
-          ],
-          "deeper": "\"Spiritual but not religious\" usually signals openness to God paired with distrust of institutions or rule-keeping, and that's something you can affirm. Agreeing that the gospel is about relationship, not religion, removes a false barrier and shows the gospel isn't the do-this-do-that system they're rejecting. Then a curious follow-up question keeps them talking and lets you find the real spiritual ground they're standing on.",
-          "teacher": "Koukl",
-          "watchOut": "Don't get defensive about \"religion.\" Find the longing underneath it and point it to Christ."
-        },
-        {
-          "front": "They say: \"All religions basically lead to God.\"",
-          "context": "",
-          "shortAnswer": "Gently: \"That sounds kind and I get the appeal. But here's the thing, the religions actually teach opposite things about how to get to God. They can't all be right if they contradict each other. Can I show you the one difference that really matters?\"",
-          "keyScriptures": [
-            "John 14:6",
-            "Acts 4:12"
-          ],
-          "deeper": "The steelman is a generous instinct: it feels arrogant to say one path is right. But the claim collapses under its own logic, because the religions make contradictory claims about God, sin, and salvation, so they can be all false or one true, but not all true at once. The decisive difference is the solution: every other religion says reach God by works, while only Christianity says God reached down to us in Christ, which is grace, not arrogance.",
-          "teacher": "Knechtle",
-          "watchOut": "Use a question, not a lecture. Don't win the logic point and lose the person."
-        },
-        {
-          "front": "The person gets hostile or just shuts the conversation down. What do I do?",
-          "context": "",
-          "shortAnswer": "Stay kind and don't push. Simply say: \"I totally understand, thank you for your time, and Jesus loves you.\" Then bless them and move on with a genuine smile.",
-          "keyScriptures": [
-            "1 Peter 3:15-16",
-            "2 Timothy 2:24-25",
-            "Matthew 10:14"
-          ],
-          "deeper": "A hostile response is almost never really about you, and arguing only confirms their worst expectations of Christians. Responding with unexpected gentleness can do more long-term good than any argument, because it leaves them with a taste of grace instead of a fight. Be especially kind when people aren't receptive; you may be one seed in a long season, and God is the one who brings the growth.",
-          "teacher": "general",
-          "watchOut": "Never match hostility with hostility. The last thing they hear should be that Jesus loves them."
-        },
-        {
-          "front": "I'm scared and I freeze up before I even open my mouth. How do I push through fear?",
-          "context": "",
-          "shortAnswer": "Pray first, then remember: it's not about your ability, it's about your availability. You're not responsible for the outcome, only for showing up and loving the person. Take a breath, ask one simple question, and let God handle the rest.",
-          "keyScriptures": [
-            "1 Corinthians 3:7",
-            "2 Timothy 1:7",
-            "Joshua 1:9"
-          ],
-          "deeper": "Fear usually comes from feeling responsible for results you were never meant to carry. Scripture frees you: you plant or water, but God gives the growth, so a conversation that seems to flop may be exactly the seed He planned to use. Pray before, during, and after, ask God for His heart so the person feels loved rather than targeted, and lean on the Spirit of power, love, and self-control He's given you.",
-          "teacher": "general",
-          "watchOut": "Don't wait to feel brave. Obedience and availability come first, the courage follows."
-        },
-        {
-          "front": "How do I get from normal small talk to actually talking about God?",
-          "context": "",
-          "shortAnswer": "Use a bridge question. After listening to their life, ask: \"Can I ask you something kind of personal? Do you have any kind of faith or spiritual background?\" or offer prayer: \"Is there anything going on I could pray for you about?\"",
-          "keyScriptures": [
-            "Colossians 4:5-6",
-            "1 Peter 3:15"
-          ],
-          "deeper": "The transition feels hard because we treat spiritual things as off-limits, but most people are willing to talk if you ask warmly and have genuinely listened first. A simple permission-asking question (\"Can I ask you something personal?\") signals respect and invites them in rather than ambushing them. Offering to pray for a need they just mentioned is one of the most natural bridges, because it connects your faith directly to their real life.",
-          "teacher": "Koukl",
-          "watchOut": "Earn the turn by listening first. Don't bulldoze from weather to hell in one sentence."
-        },
-        {
-          "front": "How do I gently invite someone to actually put their faith in Jesus?",
-          "context": "The gentle close:",
-          "shortAnswer": "After sharing, ask: \"What do you think about that?\" Then, if they're warming: \"Would you like to put your faith in Jesus right now, so you can be a 10 in your assurance?\" No pressure, just a warm invitation.",
-          "keyScriptures": [
-            "Romans 10:9-10",
-            "John 1:12",
-            "Revelation 3:20"
-          ],
-          "deeper": "Asking \"what do you think about that?\" checks their heart and keeps it a dialogue before you ever invite a response. The close ties back to the 1-10 question, framing faith as the way to move from uncertainty to assurance grounded in Christ, not themselves. Invitation, not pressure, is the posture: you offer the gift sincerely and leave the response between them and God, trusting the Spirit to do the convicting.",
-          "teacher": "Platt",
-          "watchOut": "Don't manipulate or push for a decision. A pressured prayer isn't faith. Invite, then trust God."
-        },
-        {
-          "front": "They listened but they're just not interested. How do I leave it well?",
-          "context": "",
-          "shortAnswer": "Leave warmth, not guilt: \"I really appreciate you talking with me, no pressure at all. Just know that God loves you and so do I. Take care.\" Smile, thank them sincerely, and go in peace.",
-          "keyScriptures": [
-            "1 Corinthians 3:6-7",
-            "Mark 4:26-29",
-            "Isaiah 55:11"
-          ],
-          "deeper": "Not-interested is not failure; you may be planting or watering a seed that God will grow long after you're gone. Leaving on a kind, no-pressure note keeps the door open for the next believer they meet and guards their picture of Christians as loving, not pushy. Trust that God's Word never returns empty, so a warm goodbye that affirms His love can be the very thing the Spirit uses later.",
-          "teacher": "general",
-          "watchOut": "Don't treat a no as wasted. Resist a last guilt-trip. Let them feel loved as they walk away."
         }
       ]
     }
