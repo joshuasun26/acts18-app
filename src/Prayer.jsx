@@ -24,7 +24,7 @@ export default function Prayer() {
 
       <div style={{ background: "linear-gradient(135deg,#0c1f4a,#1e3a8a)", borderRadius: 14, padding: "14px 16px", marginBottom: 18 }}>
         <div style={{ color: "#dbeafe", fontSize: 13.5, lineHeight: 1.55, fontStyle: "italic" }}>
-          “Not by might, nor by power, but by my Spirit,” says the LORD. — Zechariah 4:6
+          “Not by might nor by power, but by my Spirit,” says the LORD Almighty. — Zechariah 4:6
         </div>
       </div>
 
@@ -38,12 +38,12 @@ export default function Prayer() {
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 10 }}>
                   <div style={{ fontWeight: 800, color: NAVY, fontSize: 15.5 }}>{v.reference}</div>
                   <a href={nivLink(v.reference)} target="_blank" rel="noreferrer" style={{ flexShrink: 0, fontSize: 12, fontWeight: 700, color: "#1e3a8a", textDecoration: "none" }}>
-                    Read in NIV &rarr;
+                    Read in context &rarr;
                   </a>
                 </div>
 
                 <div style={{ marginTop: 8, fontSize: 14.5, color: "#374151", lineHeight: 1.55, fontStyle: "italic" }}>
-                  “{v.verseText}”
+                  {v.verseText}
                   <span style={{ fontStyle: "normal", color: "#9aa6b8", fontSize: 11.5, fontWeight: 600 }}> &nbsp;({v.translation})</span>
                 </div>
 
@@ -57,8 +57,8 @@ export default function Prayer() {
         </div>
       ))}
 
-      <div style={{ fontSize: 11.5, color: "#9aa6b8", textAlign: "center", marginTop: 4, lineHeight: 1.5 }}>
-        Verse text shown in the public-domain World English Bible (WEB). Tap “Read in NIV” for the NIV.
+      <div style={{ fontSize: 10.5, color: "#9aa6b8", textAlign: "center", marginTop: 6, lineHeight: 1.5 }}>
+        Scripture quotations taken from the Holy Bible, New International Version®, NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc.™ Used by permission. All rights reserved worldwide.
       </div>
     </div>
   );
