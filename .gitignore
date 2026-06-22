@@ -8,7 +8,10 @@ dist-ssr
 # vercel
 .vercel
 
-# local env / logs
+# local env / secrets / logs
+.env
+.env.*
+!.env.local.example
 *.local
 *.log
 npm-debug.log*

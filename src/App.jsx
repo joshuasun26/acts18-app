@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import Ask from "./Ask.jsx";
 import Flashcards from "./Flashcards.jsx";
 import Prayer from "./Prayer.jsx";
 import PracticalGuide from "./PracticalGuide.jsx";
@@ -263,6 +264,7 @@ function Hero({ onScrollDown }) {
 // ─── NAV BAR ─────────────────────────────────────────────────────────────────
 function NavBar({ tab, setTab, members, showAdmin, setShowAdmin }) {
   const TABS = [
+    { id: "ask", label: "Ask" },
     { id: "pray", label: "Pray" },
     { id: "practice", label: "Practice" },
     { id: "guide", label: "Guide" },
@@ -592,7 +594,7 @@ function AnnouncementPanel({ announcements, onAdd }) {
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Acts18App() {
-  const [tab, setTab] = useState("pray");
+  const [tab, setTab] = useState("ask");
   const [members, setMembers] = useState(INITIAL_MEMBERS);
   const [groups, setGroups] = useState([]);
   const [carpoolData, setCarpoolData] = useState(null);
@@ -644,6 +646,7 @@ export default function Acts18App() {
 
         {tab === "updates" && <div>{T("Real-Time Updates", "Justin posts here. Attendees & parents see it instantly.")}<div style={{ background: "#fff", borderRadius: 18, padding: 20, boxShadow: "0 2px 16px rgba(0,0,0,0.07)" }}><AnnouncementPanel announcements={announcements} onAdd={a => setAnnouncements(p => [...p, a])} /></div></div>}
 
+        {tab === "ask" && <Ask />}
         {tab === "pray" && <Prayer />}
         {tab === "practice" && <Flashcards />}
         {tab === "guide" && <PracticalGuide />}
