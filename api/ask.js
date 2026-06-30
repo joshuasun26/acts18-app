@@ -3,7 +3,7 @@ import { SYSTEM_PROMPT } from "./_systemPrompt.js";
 // Edge runtime: near-zero cold start + native streaming.
 export const config = { runtime: "edge" };
 
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-5";
 const MAX_TOKENS = 2048;
 const MAX_TURNS = 12;
 const MAX_CHARS = 4000;
